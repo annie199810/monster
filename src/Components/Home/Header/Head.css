@@ -1,0 +1,1305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat-Medium";
+  font-weight: bold;
+}
+@font-face {
+  font-family: "montserrat-Medium";
+  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+.top-nav {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+.learn {
+  background-image: url("../../../assets//images/header/sparx-banner.jpg");
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 10px;
+  justify-content: center;
+  font-weight: bolder;
+}
+.learn p {
+  font-weight: bolder;
+}
+.more {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  padding: 4px;
+  border-radius: 5px;
+  align-items: center;
+  letter-spacing: 0.7px;
+}
+
+/* brand slider */
+.brand-company {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 2px;
+}
+.brand-company img {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.main-logo {
+  position: fixed;
+  transition: all 0.3s ease;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: #fff;
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 0 19.36px 2.64px rgb(20 21 27 / 8%);
+}
+.para {
+  width: 120px;
+  margin: 8px 16px 0 0;
+  font-size: 11px;
+}
+.con-btn a {
+  border: 2px solid gray;
+  padding: 10px;
+  color: red;
+  box-shadow: 0 0 19.36px 2.64px rgb(20 21 27 / 8%);
+  text-decoration: none;
+  font-weight: bold;
+}
+.con-btn a:hover {
+  border: none;
+  background-color: red;
+  color: white;
+}
+
+.ces {
+  text-align: center;
+}
+.btn {
+  background-color: black;
+  padding: 10px;
+  border-radius: 8px;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+.nav-slider {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid white;
+}
+.services {
+  float: left;
+  overflow: hidden;
+}
+.side-grid {
+  gap: 5px;
+  border: none;
+}
+.services .service-btn {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+.service-btn:hover {
+  color: grey;
+}
+
+.service-btn {
+  display: inline-block;
+  position: relative;
+}
+
+.service-btn:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-service-content .app-dev a {
+  position: relative;
+}
+.show-service-content .app-dev a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-service-content .app-dev a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.service-btn:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+.show-service-content .app-dev a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-service-content .blockchain a {
+  position: relative;
+}
+.show-service-content .blockchain a:after {
+  content: "";
+
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-service-content .blockchain a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-service-content .blockchain a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-service-content .startup-app a {
+  position: relative;
+}
+.show-service-content .startup-app a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-service-content .startup-app a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-service-content .startup-app a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-service-content .ecom-app a {
+  position: relative;
+}
+.show-service-content .ecom-app a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-service-content .ecom-app a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-service-content .ecom-app a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-service-content .design-app a {
+  position: relative;
+}
+.show-service-content .design-app a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-service-content .design-app a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-service-content .design-app a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+.show-service-content {
+  padding: 30px;
+  gap: 10px;
+  display: grid;
+  grid-template-areas:
+    "app-dev blockchain startup-app data-app"
+    "app-dev blockchain startup-app sales-app"
+    "ecom-app blockchain startup-app dev-app"
+    "ecom-app blockchain design-app GDPR-app";
+}
+.side-grid {
+  display: grid;
+  grid-template-areas:
+    "data-app"
+    "sales-app"
+    "dev-app"
+    "GDPR-app";
+}
+.show-service-content > div {
+  border-left: thick solid black;
+  border-right: thin white;
+  border-top: thin white;
+  border-bottom: thick solid black;
+}
+
+.service-content {
+  display: none;
+  font-size: small;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(54, 28, 28, 0.2);
+  z-index: 1;
+}
+
+.show-service-content a {
+  display: block;
+  padding: 8px;
+}
+.service-content a {
+  text-decoration: none;
+}
+.service-content h4 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.show-service-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.services:hover .service-content {
+  display: block;
+}
+
+.app-dev {
+  grid-area: app-dev;
+}
+.blockchain {
+  grid-area: blockchain;
+}
+.startup-app {
+  grid-area: startup-app;
+}
+.data-app {
+  grid-area: data-app;
+}
+.dev-app {
+  grid-area: dev-app;
+}
+.sales-app {
+  grid-area: sales-app;
+}
+.GDPR-app {
+  grid-area: GDPR-app;
+}
+.ecom-app {
+  grid-area: ecom-app;
+}
+.design-app {
+  grid-area: design-app;
+}
+.services {
+  float: left;
+  overflow: hidden;
+}
+
+.technologies .tech-btn {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+.tech-btn {
+  display: inline-block;
+  position: relative;
+}
+.tech-btn:hover {
+  color: grey;
+}
+
+.tech-btn:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+
+.tech-btn:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+.show-tech-content {
+  padding: 30px;
+  gap: 10px;
+  display: grid;
+  grid-template-areas: "mobile web CMS backend";
+}
+
+.show-tech-content > div {
+  border-left: thick solid black;
+  border-right: thin white;
+  border-top: thin white;
+  border-bottom: thick solid black;
+}
+
+.tech-content {
+  display: none;
+  font-size: small;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(54, 28, 28, 0.2);
+  z-index: 1;
+}
+
+.show-tech-content a {
+  display: block;
+  padding: 8px;
+}
+.tech-content a {
+  text-decoration: none;
+}
+.tech-content h4 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.show-tech-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.show-tech-content .mobile-app a {
+  position: relative;
+}
+.show-tech-content .mobile-app a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .mobile-app a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .mobile-app a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-tech-content .web a {
+  position: relative;
+}
+.show-tech-content .web a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .web a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .web a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-tech-content .CMS a {
+  position: relative;
+}
+.show-tech-content .CMS a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .CMS a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .CMS a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-tech-content .backend a {
+  position: relative;
+}
+.show-tech-content .backend a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .backend a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .backend a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-tech-content .cloud a {
+  position: relative;
+}
+.show-tech-content .cloud a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .cloud a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .cloud a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-tech-content .fullstack a {
+  position: relative;
+}
+.show-tech-content .fullstack a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .fullstack a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .fullstack a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+/* .service-content a:hover {
+                background-color: #ddd;
+              } */
+
+.technologies:hover .tech-content {
+  text-decoration: underline;
+  display: block;
+}
+
+/* offshore */
+
+.offshore .off-btn {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+.offshore:hover .off-btn {
+  text-decoration: underline;
+}
+
+.off-btn {
+  display: inline-block;
+  position: relative;
+}
+
+.offshore:hover.off-btn a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.offshore.off-btn:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.show-off-content {
+  padding: 30px;
+  gap: 10px;
+  display: grid;
+  grid-template-areas: "mobile web CMS backend";
+}
+
+.show-off-content > div {
+  border-left: thick solid black;
+  border-right: thin white;
+  border-top: thin white;
+  border-bottom: thick solid black;
+}
+
+.off-content {
+  display: none;
+  font-size: small;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(54, 28, 28, 0.2);
+  z-index: 1;
+}
+
+.show-off-content a {
+  display: block;
+  padding: 8px;
+}
+.off-content a {
+  text-decoration: none;
+}
+.off-content h4 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.show-off-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.off-btn {
+  display: inline-block;
+  position: relative;
+}
+.off-btn:hover {
+  color: grey;
+}
+
+.off-btn:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+
+.off-btn:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+/* .service-content a:hover {
+                background-color: #ddd;
+              } */
+
+.offshore:hover .off-content {
+  text-decoration: underline;
+  display: block;
+}
+
+.show-off-content .Hire-App a {
+  position: relative;
+}
+.show-off-content .Hire-App a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .Hire-App a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .Hire-App a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .Hire-Web a {
+  position: relative;
+}
+.show-off-content .Hire-Web a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .Hire-Web a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .Hire-Web a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .Hire-JS a {
+  position: relative;
+}
+.show-off-content .Hire-JS a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .Hire-JS a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .Hire-JS a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .offshore a {
+  position: relative;
+}
+.show-off-content .offshore a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .offshore a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .offshore a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .Hire-Full a {
+  position: relative;
+}
+.show-off-content .Hire-Full a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .Hire-Full a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .Hire-Full a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .Hire-Block a {
+  position: relative;
+}
+.show-off-content .Hire-Block a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .Hire-Block a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .Hire-Block a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .AR a {
+  position: relative;
+}
+.show-off-content .AR a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .AR a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .AR a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .UI a {
+  position: relative;
+}
+.show-off-content .UI a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .UI a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .UI a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+/* industries */
+
+.industries .industries-btn {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+.industries:hover .industries-btn {
+  text-decoration: underline;
+}
+
+.industries-btn {
+  display: inline-block;
+  position: relative;
+}
+
+.industries:hover.industries-btn a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.industries.industries-btn:hover::after {
+  /* text-decoration: underline;
+                text-decoration-color: gray; */
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.show-industries-content {
+  padding: 30px;
+  gap: 10px;
+  display: grid;
+  grid-template-areas: "mobile web CMS backend";
+}
+
+.show-industries-content > div {
+  border-left: thick solid black;
+  border-right: thin white;
+  border-top: thin white;
+  border-bottom: thick solid black;
+}
+
+.industries-content {
+  display: none;
+  font-size: small;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(54, 28, 28, 0.2);
+  z-index: 1;
+}
+
+.show-industries-content a {
+  display: block;
+  padding: 8px;
+}
+.industries-content a {
+  text-decoration: none;
+}
+.industries-content h4 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.show-industries-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.show-industries-content .ind a {
+  position: relative;
+}
+.show-industries-content .ind a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-industries-content .ind a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-industries-content .ind a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+/* .service-content a:hover {
+                background-color: #ddd;
+              } */
+
+.industries:hover .industries-content {
+  text-decoration: underline;
+  display: block;
+}
+
+/* work */
+.work {
+  float: left;
+  overflow: hidden;
+}
+
+.work .work-btn {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+.work:hover .work-btn {
+  text-decoration: underline;
+}
+.main-logo a:after {
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.main-logo a:hover::after {
+  /* text-decoration: underline;
+                text-decoration-color: gray; */
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.show-work-content {
+  display: grid;
+  grid-template-columns:
+    auto auto
+    auto auto;
+  gap: 40px;
+  padding: 10px;
+}
+.work-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 40px;
+}
+.work-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+.work-content h4 {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.work:hover .work-content {
+  display: block;
+}
+
+/* who we are */
+
+.who-we-are .who-we-are-btn {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+.who-we-are:hover .who-we-are-btn {
+  text-decoration: underline;
+}
+
+.who-we-are-btn {
+  display: inline-block;
+  position: relative;
+}
+
+.who-we-are:hover.who-we-are-btn a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.who-we-are.who-we-are-btn:hover::after {
+  /* text-decoration: underline;
+                text-decoration-color: gray; */
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.show-who-content {
+  padding: 30px;
+  gap: 10px;
+  display: grid;
+  grid-template-areas: "mobile web CMS backend";
+}
+
+.show-who-content > div {
+  border-left: thick solid black;
+  border-right: thin white;
+  border-top: thin white;
+  border-bottom: thick solid black;
+}
+
+.who-we-are-content {
+  display: none;
+  font-size: small;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(54, 28, 28, 0.2);
+  z-index: 1;
+}
+
+.show-who-content a {
+  display: block;
+  padding: 8px;
+}
+.who-we-are-content a {
+  text-decoration: none;
+}
+.who-we-are-content h4 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.show-who-content a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .service-content a:hover {
+                background-color: #ddd;
+              } */
+
+.who-we-are:hover .who-we-are-content {
+  text-decoration: underline;
+  display: block;
+}
+
+.nav-slider {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow: hidden;
+  width: 80px;
+}
+
+.brand-company {
+  display: flex;
+  align-items: center;
+  animation: slideshow 50s linear infinite;
+  height: 55px;
+}
+.brand-company img {
+  padding: 0 10px 0 10px;
+}
+
+@keyframes slideshow {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.nav-slider::before,
+.nav-slider::after {
+  position: absolute;
+  content: "";
+}
+.nav-slider::before {
+  left: 0;
+  top: 50%;
+}
+.nav-slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.hamburger {
+  display: none;
+}
+.dropdown-content {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  z-index: 1;
+  background-color: white;
+}
+.dropdown-menu button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  border: 1px solid grey;
+  border: none;
+}
+.dropdown-menu button {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+}
+.servicea-hr {
+  border: 1px solid gray;
+  width: 100%;
+}
+.dropdown-menu img {
+  cursor: pointer;
+}
+@media (max-width: 1028px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .who-we-are,
+  .para,
+  .nav-slider,
+  .services,
+  .technologies,
+  .offshore,
+  .industries,
+  .work,
+  .con-btn {
+    display: none;
+  }
+  .learn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .more {
+    width: 150px;
+  }
+}
+.navigation-visible {
+  width: 100%;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 30px;
+  border: none;
+}
+.navigation {
+  border-radius: 3px;
+  background: #f1f1f1;
+}
+.navigation-visible img {
+  transform: rotate(0deg);
+  transition: transform 0.2s ease-in-out;
+}
+.navigation-visible img.active {
+  transform: rotate(90deg);
+}
+.accordion-toggle {
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, height 0.3s 0.3s ease-in-out;
+  color: #333;
+}
+.animated {
+  opacity: 1;
+  transition: height 0.3s ease-in-out, opacity 0.3s 0.3s ease-in-out;
+}
+/* .navigation a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  } */
