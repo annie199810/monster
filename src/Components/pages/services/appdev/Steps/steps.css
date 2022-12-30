@@ -1,0 +1,55 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.step{
+    background-color: rgb(226, 220, 213);
+}
+.double{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin-top: 30px; 
+    padding: 30px;
+}
+
+.Analysis{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.analys{
+    width:200px;
+    height: 400px;
+}
+.analys hr{
+    border: 2px solid black;
+}
+.analys h2{
+    padding: 30px;
+}
+.aux{
+    width: 500px;
+    height: 400px;
+}
+.aux h3{
+    padding:15px;
+}
+
+.an-alys{
+    border: 1px solid black;
+    width: 670px;
+}
+.an-alyss{
+    border: 2px solid black;
+    width: 170px;
+}

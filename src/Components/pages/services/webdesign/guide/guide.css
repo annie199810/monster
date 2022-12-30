@@ -1,0 +1,89 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.boosts {
+   display: flex;
+   flex-direction: row;
+    background-color: #bcdfea;
+    height: 400px;
+    gap: 50px;
+}
+.ideas h4{
+ margin-top: 10px;
+ margin-left: 40px;
+ color: #28282e;
+}
+.ideas h2{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #14151b;
+    font-weight: bold;
+}
+.ideas p{
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #28282e;
+}
+
+.doess h4{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #28282e;
+   }
+.doess h2{
+       margin-top: 30px;
+       margin-left: 40px;
+       color: #14151b;
+       font-weight: bold;
+   }
+.doess p{
+       margin-top: 50px;
+       margin-left: 40px;
+       color: #28282e;
+   }
+   
+.needs h4{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #28282e;
+    
+   }
+.needs h2{
+       margin-top: 30px;
+       margin-left: 40px;
+       color: #14151b;
+       font-weight: bold;
+   }
+.needs p{
+       margin-top: 50px;
+       margin-left: 40px;
+       color: #28282e;
+   }
+.ideas hr{
+    border: 3px solid black;
+    margin-top: 50px;
+    width: 50px;
+    margin-left: 30px;
+   }
+   
+.doess hr{
+    border: 3px solid black;
+    margin-top: 50px;
+    width: 50px;
+    margin-left: 30px;
+   }
+   
+.needs hr{
+    border: 3px solid black;
+    margin-top: 50px;
+    width: 50px;
+    margin-left: 30px;
+   }

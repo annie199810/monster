@@ -1,0 +1,252 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.deli-ver{
+    height:500%;
+}
+.deli-ver h1{
+    font-size:40px;
+    font-weight: bold;
+    padding: 20px;
+}
+.deli-ver h2{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #14151b;
+}
+
+.Corporate{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding:60px;
+    
+}
+.cor{
+
+    height: 250px;
+    width: 350px;
+}
+.cor hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.cor h4{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(73, 71, 71);
+}
+.cor h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.cor h3:hover{
+    color: red;
+}
+.android{
+    
+    height: 250px;
+    width: 350px;
+}
+.android hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.android h4{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(73, 71, 71);
+}
+.android h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.android h3:hover{
+    color: red;
+}
+.chain{
+    height: 250px;
+    width: 350px;
+}
+
+.chain hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.chain h4{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(73, 71, 71);
+}
+.chain h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.chain h3:hover{
+    color: red;
+}
+.demand{
+    height: 250px;
+    width: 350px;
+}
+
+.demand hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.demand h4{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(73, 71, 71);
+}
+.demand h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.demand h3:hover{
+    color: red;
+}
+.hybr-id{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.hybr-id hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.hybr-id h4{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(73, 71, 71);
+}
+.hybr-id h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.hybr-id h3:hover{
+    color: red;
+}
+.progres{
+     height: 250px;
+    width: 350px;
+}
+
+.progres hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.progres h4{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(73, 71, 71);
+}
+.progres h3{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.progres h3:hover{
+    color: red;
+}
+.wear{
+    height: 250px;
+    width: 350px;
+}
+
+.wear hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.wear h4{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(73, 71, 71);
+}
+.wear h3{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.wear h3:hover{
+    color: red;
+}
+.utilize{
+    height: 250px;
+    width: 350px;
+}
+
+.utilize hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.utilize h4{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(73, 71, 71);
+}
+.utilize h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.utilize h3:hover{
+    color: red;
+}
+.iot{
+    height: 250px;
+    width: 350px;
+}
+
+.iot hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.iot h4{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(73, 71, 71);
+}
+.iot h3{
+    font-size: 30px;
+    padding:10px;
+}
+
+.iot h3:hover{
+    color: red;
+}

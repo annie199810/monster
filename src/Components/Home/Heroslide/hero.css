@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "montserrat-Medium";
+  font-size: bold;
+}
+@font-face {
+  font-family: "montserrat-Medium";
+  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+.text {
+  background-image: url("../../../assets/images/main-banner.jpg");
+  height: 800px;
+  background-size: cover;
+  background-position: 55% 55%;
+  width: 100%;
+  padding:0px;
+
+}
+.tech {
+  display:flex;
+  flex-direction: column;
+  padding-top: 80px;
+  gap: 140px;
+}
+.text hr {
+  width: 70px;
+  margin-left: 30px;
+  height: 4px;
+  background-color: white;
+}
+.ideate h1 {
+  padding-left: 30px;
+  color: #e42c38;
+  font-size: 65px;
+  font-weight: bolder;
+  margin-top:40px;
+}
+.ideate h2 {
+  padding-left: 30px;
+  color: white;
+  font-size: 55px;
+  font-weight: bolder;
+}
+.goal p {
+  display: flex;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #84848a;
+  line-height: 1.0;
+  padding-left: 30px;
+}
+
+.ideate{
+  width: 400px;
+  height: 300px;
+}
+.innova {
+  width: 300px;
+  height: 300px;
+  margin-left: 300px;
+  color: white;
+  margin-top: 120px;
+}
+.innova h3 {
+  font-size: 16px;
+}
+.text h3 {
+  text-align: center;
+}
+.bt {
+  margin-top: 50px;
+}
+.bt h3 {
+  font-size: 16px;
+}
+@media (max-width: 480px) {
+  .te {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+}
+ 

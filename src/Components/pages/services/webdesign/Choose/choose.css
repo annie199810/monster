@@ -1,0 +1,155 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.web-sites{
+    height:500%;
+    margin-top: 10%;
+}
+.web-sites h1{
+    font-size:50px;
+    font-weight: bold;
+    padding: 30px;
+}
+.web-sites h2{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #14151b;
+}
+
+.br-ing{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding:60px;
+    
+}
+.satis-faction{
+    height: 250px;
+    width: 350px;
+}
+.satis-faction hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.satis-faction h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.satis-faction h3{
+    font-size: 30px;
+}
+.Reputation{
+    
+    height: 250px;
+    width: 350px;
+}
+.Reputation hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.Reputation h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.Reputation h3{
+    font-size: 30px;
+}
+.regu-lar{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.regu-lar hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.regu-lar h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.regu-lar h3{
+    font-size: 30px;
+}
+.Priority{
+    height: 250px;
+    width: 350px;
+}
+
+.Priority hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.Priority h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.Priority h3{
+    font-size: 30px;
+}
+.Exped-ient{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.Exped-ient hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.Exped-ient h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.Exped-ient h3{
+    font-size: 30px;
+}
+.Extensive{
+     height: 250px;
+    width: 350px;
+}
+
+.Extensive hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.Extensive h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.Extensive h3{
+    font-size: 30px;
+}
+

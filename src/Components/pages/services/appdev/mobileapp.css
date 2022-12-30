@@ -1,0 +1,91 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.service{
+    background-color:#f9f8f8;
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.ser-vice{
+    padding:8%;
+    width: 700px;
+    height: 500px;
+}
+.ser-vice h1{
+    font-size:3rem;
+    font-weight:bolder;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top:15%;
+}
+.ser-vice hr{
+    border:2px solid black;
+}
+.expertise{
+  display: flex;
+  flex-direction: row;
+   flex-wrap: wrap;
+   gap: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   color: #14151b;
+}
+.hy{
+    margin-left:50px;
+}
+.io{
+    margin-left: 30px;
+}
+.ad{
+    margin-left:10px;
+}
+.st{
+    margin-left: 60px;
+}
+.servi-ce{
+    padding:20px;
+    width: 600px;
+    height: 500px;
+}
+.servi-ce hr{
+    width:70px;
+    border:4px solid black;
+    margin-bottom: 10px;
+    margin-top:20%;
+}
+.servi-ce p {
+    margin-top: 30px;
+    color: #14151b;
+    font-weight: 400;
+    padding: 10px;
+}
+.servi-ce button{
+    background-color: #02789e;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.5s;
+    border: 2px solid transparent;
+    margin-top: 30px;
+}
+@media(max-width:480px){
+    .service{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

@@ -1,0 +1,64 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.fit{
+ height: 700px;
+ background-color: darksalmon;
+ padding: 20px;
+ 
+}
+.credi-ble{
+    display:grid;
+    grid-template-columns: auto auto;
+   margin-top: 50px;
+    gap: 10px;
+}
+.companys{
+ width:500px;
+ height: 500px;
+ display: flex;
+ flex-direction: row;
+}
+.bene{
+    width: 400px;
+    height: 400px;
+}
+
+.faster{
+    width:200px;
+    height: 400px;
+}
+.de-bar{
+    border: 1px solid black;
+    width: 500px;
+}
+.de-baar{
+    border: 2px solid black;
+    width: 100px;
+}
+.faster h2{
+    padding:20px;
+}
+.sma-rt{
+    width: 700px;
+    height: 400px;
+}
+.sma-rt h3{
+    padding:25px;
+    font-size: 16px;
+    line-height: 20px;
+}
+@media(max-width:480px){
+    .credible{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

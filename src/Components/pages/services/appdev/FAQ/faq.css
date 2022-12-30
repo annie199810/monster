@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat-Medium";
+  font-weight: bold;
+}
+.bar {
+  width: 100%;
+  border: 1px solid grey;
+  background-color: grey;
+  color: gray;
+}
+.accordion-visible {
+  display: flex;
+  gap: 30px;
+}
+.accordian-para {
+  display: flex;
+  gap: 30px;
+}
+.accordion-visible h5 {
+  border: 1px solid #dd1220;
+  padding: 8px;
+  color: white;
+  background-color: #dd1220;
+  width: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
+}
+.accordian-para {
+  padding: 0 0 0 50px;
+}
+.accordion-para h5 {
+  border: 1px solid black;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  width: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
+}
+.accordian-para p {
+  padding: 20px;
+}
+.acccordion-visible img {
+  transform: rotate(-90deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion {
+  border-radius: 3px;
+  background: #f1f1f1;
+}
+.acccordion h2 {
+  font-size: 14px;
+  padding: 0 25px 250px 25px;
+}
+
+.accordion-visible {
+  width: 100%;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 14px 30px;
+  border: none;
+}
+/* .accordion-visible span {
+    padding: 15px 0;
+    font-size: 14px;
+  } */
+.accordion-visible img {
+  /* width: 20px; */
+  transform: rotate(-90deg);
+  transition: transform 0.2s ease-in-out;
+}
+.accordion-visible img.active {
+  transform: rotate(0deg);
+}
+
+.accordion-toggle {
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, height 0.3s 0.3s ease-in-out;
+  color: #333;
+}
+
+.animated {
+  opacity: 1;
+  transition: height 0.3s ease-in-out, opacity 0.3s 0.3s ease-in-out;
+}
+
+.accordion-toggle p {
+  pointer-events: none;
+  font-size: 14px;
+}
+.faqhead {
+  padding: 35px 75px;
+}
+.faq-interior {
+  display: flex;
+  justify-content: space-between;
+}
+.faq-butn {
+  color: #fff;
+  font-size: 14px;
+  padding: 16px 90px;
+  background-color: #f12e36;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+}
+.faq-butn:hover {
+  background-color: #2e2e2e;
+}
+/* .faqrender {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 35px 75px 75px;
+  } */
