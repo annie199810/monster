@@ -1,0 +1,485 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.pages{
+    background-color: #f9f8f8;
+}
+.pages h1{
+    font-size: 40px;
+    padding: 40px;
+    color: red;
+    
+}
+.pages h2{
+    color: #373738;
+    margin-left: 35px;
+}
+.pages h3{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.pages h5{
+    margin-left: 20px;
+    padding: 10px;
+}
+.images{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding:50px;
+    gap:30px;
+}
+
+.gift{
+    width: 550px;
+    height: 300px;
+    position:relative;
+    background-size: cover;
+    background-image: url("../../../assets/images/gift-wallet.jpg");
+    opacity: 1;
+}
+.gift button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.gift:hover .overlay {
+    width: 100%;
+  }
+ 
+.overlay {
+    display: block;
+    position: absolute;
+    background: #f0b6ab; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay h3{
+    padding: 30px;
+    font-size: 14px;
+}
+.Wellthy{
+    width: 550px;
+    height: 300px;
+    position:relative;
+    background-size: cover;
+    background-image: url("../../../assets/images/wellthy-care.jpg");
+    opacity: 1;
+}
+
+.Wellthy button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.Wellthy:hover .overlay {
+    width: 100%;
+  }
+ 
+.overlay {
+    display: block;
+    position: absolute;
+    background: #f0b6ab; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay h3{
+    padding: 30px;
+    font-size: 14px;
+}
+  
+.Coaching{
+    width: 550px;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    background-image: url("../../../../src/assets/images/ics_app.jpg");
+}
+
+.Coaching button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.Coaching:hover .overlay {
+    width: 100%;
+  }
+ 
+.Kwiki{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/kwiki-app.jpg");
+}
+
+.Kwiki button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.Kwiki:hover .overlay {
+    width: 100%;
+  }
+.DreamNPlay{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../assets/images/DreamNPlay.jpg");
+}
+
+.DreamNPlay button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.DreamNPlay:hover .overlay {
+    width: 100%;
+  }
+.Buzzwork{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/buzzwork.jpg");
+}
+
+.Buzzwork button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.Buzzwork:hover .overlay {
+    width: 100%;
+  }
+.Restyle{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/restyle.jpg");
+}
+
+.Restyle button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.Restyle:hover .overlay {
+    width: 100%;
+  }
+.Xpaging{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/xpaging.jpg");
+}
+
+.Xpaging button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.Xpaging:hover .overlay {
+    width: 100%;
+  }
+.CopIT{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/copIT.jpg");
+}
+
+.CopIT button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.CopIT:hover .overlay {
+    width: 100%;
+  }
+.JexMovers{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/jex-movers.jpg");
+}
+
+.JexMovers button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.JexMovers:hover .overlay {
+    width: 100%;
+  }
+.Bluhop{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/bluehop.jpg");
+}
+
+.Bluhop button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.Bluhop:hover .overlay {
+    width: 100%;
+  }
+.RML{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/rml.jpg");
+}
+
+.RML button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.RML:hover .overlay {
+    width: 100%;
+  }
+.fendi{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/eefendi.jpg");
+}
+
+.fendi button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.fendi:hover .overlay {
+    width: 100%;
+  }
+.Getmybook{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/getmybook.jpg");
+}
+
+.Getmybook button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.Getmybook:hover .overlay {
+    width: 100%;
+  }
+.Wynora{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/Thumbnail.jpg");
+}
+
+.Wynora button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.Wynora:hover .overlay {
+    width: 100%;
+  }
+.Wonder{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../../../../src/assets/images/wonder-fruit.jpg");
+}
+
+.Wonder button{
+    margin-top: 200px;
+    margin-left: 20px;
+    width:130px;
+    height:50px;
+    background-color: #f7a898;
+    color: white;
+}
+.Wonder:hover .overlay {
+    width: 100%;
+  }
+.port{
+    display: flex;
+    flex-direction: row;
+    
+}
+.port1 p{
+    margin-top: 60px;
+    padding: 10px;
+    margin-right:200px;
+  
+}
+.port2 button{
+    display: inline-block;
+    background-color: #02789e;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Proxima Nova Rg';
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all .5s;
+    border: 2px solid transparent;
+}
+
+.real h4{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #28282e;
+   }
+   .real h2{
+       margin-top: 30px;
+       margin-left: 40px;
+       color: #14151b;
+       font-weight: bold;
+   }
+   .real p{
+       margin-top: 50px;
+       margin-left: 40px;
+       color: #28282e;
+   }
+   
+   .real1 h4{
+       margin-top: 10px;
+       margin-left: 40px;
+       color: #28282e;
+      }
+   .real1 h2{
+          margin-top: 30px;
+          margin-left: 40px;
+          color: #14151b;
+          font-weight: bold;
+      }
+   .real1 p{
+          margin-top: 50px;
+          margin-left: 40px;
+          color: #28282e;
+      }
+      
+   .real2 h4{
+       margin-top: 10px;
+       margin-left: 40px;
+       color: #28282e;
+       
+      }
+   .real2 h2{
+          margin-top: 30px;
+          margin-left: 40px;
+          color: #14151b;
+          font-weight: bold;
+      }
+   .real2 p{
+          margin-top: 50px;
+          margin-left: 40px;
+          color: #28282e;
+      }
+   .real hr{
+       border: 3px solid black;
+       margin-top: 50px;
+       width: 50px;
+       margin-left: 30px;
+      }
+      
+   .real1 hr{
+       border: 3px solid black;
+       margin-top: 50px;
+       width: 50px;
+       margin-left: 30px;
+      }
+      
+   .real2 hr{
+       border: 3px solid black;
+       margin-top: 50px;
+       width: 50px;
+       margin-left: 30px;
+      }
+      
+.so-cial {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: #bcdfea;
+    gap: 50px;
+}

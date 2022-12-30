@@ -1,0 +1,173 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.fault{
+    height:500%;
+}
+.fault h1{
+    font-size:40px;
+    font-weight: bold;
+    padding:10px;
+}
+.fault h2{
+    
+    font-weight: bold;
+    font-size: 30px;
+    color: #14151b;
+    padding: 40px;
+}
+
+.div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding:60px;
+    
+}
+.platform{
+
+    height: 250px;
+    width: 350px;
+}
+.platform hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.platform h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.platform h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.platform h3:hover{
+    color: red;
+}
+.places{
+    
+    height: 250px;
+    width: 350px;
+}
+.places hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.places h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.places h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.places h3:hover{
+    color: red;
+}
+.multi{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.multi hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.multi h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.multi h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.multi h3:hover{
+    color: red;
+}
+.integration{
+    height: 250px;
+    width: 350px;
+}
+.integration hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.integration h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.integration h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.integration h3:hover{
+    color: red;
+}
+.migration{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.migration hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.migration h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.migration h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.migration h3:hover{
+    color: red;
+}
+.simplify{
+     height: 250px;
+    width: 350px;
+}
+
+.simplify hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.simplify h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.simplify h3{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.simplify h3:hover{
+    color: red;
+}

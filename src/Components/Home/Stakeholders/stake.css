@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "montserrat-Medium";
+  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "montserrat-Medium";
+  font-weight: bold;
+}
+.stake {
+  background-color: rgb(240, 232, 233);
+}
+.stake h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 20px;
+}
+.stake p {
+  font-size: 20px;
+  margin-left: 30px;
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 70px;
+}
+.chain {
+  height: 200px;
+  width: 350px;
+}
+.name {
+ border: 4px solid black;
+}
+.chain h4 {
+  font-size: 16px;
+  color: rgb(73, 71, 71);
+  padding: 10px;
+}
+.chain h3 {
+  font-size: 30px;
+}
+.unfold {
+  height: 200px;
+  width: 350px;
+}
+.unfold hr {
+  margin-bottom: 10px;
+  width: 350px;
+  height: 10px;
+  background-color: black;
+}
+.unfold h4 {
+  font-size: 16px;
+  color: rgb(73, 71, 71);
+  padding: 10px;
+}
+.unfold h3 {
+  font-size: 30px;
+}
+.Augmented {
+  height: 200px;
+  width: 350px;
+}
+
+.Augmented hr {
+  margin-bottom: 10px;
+  width: 350px;
+  height: 10px;
+  background-color: black;
+}
+.Augmented h4 {
+  font-size: 16px;
+  color: rgb(73, 71, 71);
+  padding: 10px;
+}
+.Augmented h3 {
+  font-size: 30px;
+}
+
+.power {
+  height: 200px;
+  width: 350px;
+}
+
+.power hr {
+  margin-bottom: 10px;
+  width: 350px;
+  height: 10px;
+  background-color: black;
+}
+.power h4 {
+  font-size: 16px;
+  color: rgb(73, 71, 71);
+  padding: 10px;
+}
+.power h3 {
+  font-size: 30px;
+}
+
+.artificial {
+  height: 200px;
+  width: 350px;
+}
+
+.artificial hr {
+  margin-bottom: 10px;
+  width: 350px;
+  height: 10px;
+  background-color: black;
+}
+.artificial h4 {
+  font-size: 16px;
+  color: rgb(73, 71, 71);
+  padding: 10px;
+}
+.artificial h3 {
+  font-size: 30px;
+}
+
+.Virtual {
+  height: 200px;
+  width: 350px;
+}
+
+.Virtual hr {
+  margin-bottom: 10px;
+  width: 350px;
+  height: 10px;
+  background-color: black;
+}
+.Virtual h4 {
+  font-size: 16px;
+  color: rgb(73, 71, 71);
+  padding: 10px;
+}
+.Virtual h3 {
+  font-size: 30px;
+}
+.stake button {
+  display: inline-block;
+  background-color: #02789e;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: "Proxima Nova Rg";
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.5s;
+  border: 2px solid transparent;
+  margin-left: 50px;
+}
+@media (max-width: 480px) {
+}

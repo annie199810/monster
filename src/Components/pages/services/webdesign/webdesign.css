@@ -1,0 +1,105 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.company{
+    background-color:#f9f8f8;
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.com-pany{
+    padding:8%;
+    width: 700px;
+    height: 500px;
+}
+.com-pany h1{
+    font-size:4rem;
+    font-weight:bolder;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 20%;
+}
+.com-pany hr{
+    border:2px solid black;
+}
+.exper-tises{
+  display: flex;
+  flex-direction: row;
+   flex-wrap: wrap;
+   gap: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   color: #14151b;
+}
+.Responsive{
+    margin-left:10px;
+}
+.Upgradation{
+    margin-left: 50%;
+}
+.Security{
+    margin-left:10px;
+}
+.Maintenance{
+    margin-left:54%;
+}
+.Migrations{
+    margin-left: 10px;
+}
+.PWA{
+    margin-left: 51%;
+}
+.edge{
+    padding:8%;
+    width: 600px;
+    height: 600px;
+}
+.edge h1{
+    margin-top: 30%;
+}
+.edge hr{
+    width:70px;
+    border:4px solid black;
+    margin-bottom: 10px;
+}
+.edge p {
+    margin-top: 30px;
+    color: #14151b;
+    font-weight: 400;
+    padding: 10px;
+}
+.edge button{
+    background-color: #02789e;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.5s;
+    border: 2px solid transparent;
+    margin-top: 30px;
+}
+@media(max-width:782px){
+    .company{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media(max-width:480px){
+    .company{
+        display: grid;
+        grid-template-columns:auto;
+    }
+}

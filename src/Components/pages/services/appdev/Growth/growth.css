@@ -1,0 +1,212 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.growth{
+    height:500%;
+    margin-top: 20%;
+}
+.growth h1{
+    font-size:50px;
+    font-weight: bold;
+    padding: 30px;
+}
+.growth h2{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #14151b;
+}
+
+.bring{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding:60px;
+    
+}
+.satisfaction{
+    height: 250px;
+    width: 350px;
+}
+.satisfaction hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.satisfaction h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.satisfaction h3{
+    font-size: 30px;
+}
+.agile{
+    
+    height: 250px;
+    width: 350px;
+}
+.agile hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.agile h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.agile h3{
+    font-size: 30px;
+}
+.regular{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.regular hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.regular h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.regular h3{
+    font-size: 30px;
+}
+.replace{
+    height: 250px;
+    width: 350px;
+}
+
+.replace hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.replace h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.replace h3{
+    font-size: 30px;
+}
+.support{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.support hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.support h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.support h3{
+    font-size: 30px;
+}
+.team{
+     height: 250px;
+    width: 350px;
+}
+
+.team hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.team h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.team h3{
+    font-size: 30px;
+}
+.manager{
+    height: 250px;
+    width: 350px;
+}
+.manager hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.manager h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.manager h3{
+    font-size: 30px;
+}
+.fast{
+    height: 250px;
+    width: 350px;
+}
+
+.fast hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.fast h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.fast h3{
+    font-size: 30px;
+}
+.commit{
+    height: 250px;
+    width: 350px;
+}
+
+.commit hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.commit h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.commit h3{
+    font-size: 30px;
+}

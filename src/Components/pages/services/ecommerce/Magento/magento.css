@@ -1,0 +1,89 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.boost {
+   display: flex;
+   flex-direction: row;
+    background-color: #bcdfea;
+    height: 400px;
+    gap: 50px;
+}
+.idea h4{
+ margin-top: 10px;
+ margin-left: 40px;
+ color: #28282e;
+}
+.idea h2{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #14151b;
+    font-weight: bold;
+}
+.idea p{
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #28282e;
+}
+
+.does h4{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #28282e;
+   }
+.does h2{
+       margin-top: 30px;
+       margin-left: 40px;
+       color: #14151b;
+       font-weight: bold;
+   }
+.does p{
+       margin-top: 50px;
+       margin-left: 40px;
+       color: #28282e;
+   }
+   
+.need h4{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #28282e;
+    
+   }
+.need h2{
+       margin-top: 30px;
+       margin-left: 40px;
+       color: #14151b;
+       font-weight: bold;
+   }
+.need p{
+       margin-top: 50px;
+       margin-left: 40px;
+       color: #28282e;
+   }
+.idea hr{
+    border: 3px solid black;
+    margin-top: 50px;
+    width: 50px;
+    margin-left: 30px;
+   }
+   
+.does hr{
+    border: 3px solid black;
+    margin-top: 50px;
+    width: 50px;
+    margin-left: 30px;
+   }
+   
+.need hr{
+    border: 3px solid black;
+    margin-top: 50px;
+    width: 50px;
+    margin-left: 30px;
+   }

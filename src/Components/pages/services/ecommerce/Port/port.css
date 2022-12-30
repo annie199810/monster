@@ -1,0 +1,174 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.port-folio{
+    background-color: gray;
+    height:900px;
+}
+.view{
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 40px;
+    gap: 30px;
+}
+.folio{
+    width:99%;
+    height:600px;
+    background-color: white;
+}
+.folio h2{
+    padding:20px;
+}
+.folio h2 button{
+    color:white;
+    margin-left:70%;
+    height: 40px;
+    color: #14151b;
+    font-size: 1.1rem;
+    border:1px solid #02789e;
+    transition: all .5s;
+    border-radius: 2px;
+    font-weight: 700;
+    padding: 10px;
+}
+.folio h2 button:hover{
+    background-color: #02789e;
+}
+.view2{
+    width: 600px;
+    height: 300px;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 30px;
+}
+.page1{
+    width:350px;
+    height:450px;
+    
+}
+.Diyaonline h1{
+    padding: 10px;
+}
+.Diyaonline h1:hover{
+    color: red;
+}
+.Diyaonline p{
+    color: #14151b;
+}
+.Diyaonline h5{
+    margin-top: 30px;
+    color: #14151B;
+}
+.page2{
+    width:350px;
+    height:450px;
+}
+
+.Eefendi h1{
+    padding: 10px;
+}
+.Eefendi h1:hover{
+    color: red;
+}
+.Eefendi p{
+    color: #14151b;
+}
+.Eefendi h5{
+    margin-top: 30px;
+    color: #14151B;
+}
+.page3{
+    width:350px;
+    height:450px;
+}
+
+.Freshby h1{
+    padding: 10px;
+}
+.Freshby h1:hover{
+    color: red;
+}
+.Freshby p{
+    color: #14151b;
+}
+.Freshby h5{
+    margin-top: 30px;
+    color: #14151B;
+}
+.view2{
+    width: 99%;
+    height: 450px;
+    background-color: white;
+    box-shadow: 4px 4px lightgrey;
+    transition: transform.10s; 
+}
+.Know{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.Say{
+    width: 800px;
+    min-height:180px;
+    padding: 30px;
+}
+.Say h1{
+    font-weight: bold;
+    color: #14151B;
+    font-size: 40px;
+}
+.Say h3{
+    font-weight: 600;
+    color: #14151b;
+    margin-top: 10px;
+}
+.slick{
+    width: 300px;
+    height: 180px;
+}
+.abdullah{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin-top: 19px;
+}
+.Alrasheedi{
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.mart{
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    color:#fff;
+    padding: 20px;
+    margin-top:60px;
+    
+}
+.aust{
+    width: 700px;
+    height: 200px;
+}
+.aust p {
+    padding:40px;
+    font-size:20px;
+}
+.custom-bar{
+    border: 2px solid black;
+    background-color: black;
+    width: 143%;
+}
