@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat-Medium";
+  font-weight: bold;
+}
+@font-face {
+  font-family: "montserrat-Medium";
+  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+.Quality {
+  padding: 200px;
+}
+.Quality-bar {
+  border: 3px solid black;
+  background-color: black;
+}
+.Quality-end {
+  border: 1px solid black;
+  background-color: black;
+}
+.Quality-small {
+  border: 3px solid black;
+  background-color: black;
+  width: 60px;
+}
+.Quality-info {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+.Quality-title {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  font-size: 30px;
+}
+.Quality-products {
+  font-size: 11px;
+  padding: 20px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.Quality-items {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Quality-para {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+}
+.Quality-para h2 {
+  font-weight: 100;
+}
+.Quality-para p {
+  font-size: 13px;
+  font-weight: 50;
+}
+.Quality-app {
+  display: flex;
+  flex-direction: column;
+}
+.Quality-btn {
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  width: 300px;
+  background-color: #02789e;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
+}
+.Quality-btn:hover {
+  border: 2px solid #02789e;
+  color: black;
+  background-color: transparent;
+}
+@media (max-width: 1024px) {
+  .Quality-info {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .Quality-products {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .Quality-products {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+  }
+}

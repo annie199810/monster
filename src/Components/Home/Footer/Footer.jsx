@@ -1,5 +1,7 @@
 import React from "react";
+import { useState, useEffect, useRef } from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 import linkedin from "../../../assets/Icons/Footer/linkedin.svg";
 import twitter from "../../../assets/Icons/Footer/twitter.svg";
 import instagram from "../../../assets/Icons/Footer/instagram.svg";
@@ -13,7 +15,73 @@ import telegraph from "../../../assets/Icons/Footer/telegraph.svg";
 import india from "../../../assets/Icons/Footer/india-flag.svg";
 import usa from "../../../assets/Icons/Footer/us-flag.svg";
 import uk from "../../../assets/Icons/Footer/uk-flag.svg";
+import chevron from "../../../assets/Icons/Header/chevron-right.svg";
 const Footer = () => {
+  const [toggle, setToggle] = useState(false);
+  const [heightE1, setHeightE1] = useState();
+  const refHeight = useRef();
+
+  useEffect(() => {
+    setHeightE1(`${refHeight.current}px`);
+  }, []);
+  const toggleState = () => {
+    setToggle(!toggle);
+  };
+
+  const dropcontent = (
+    <div className="dropdown-content">
+      <div className="dropdown-menu">
+        <div className="navigation">
+          <a href="#" className="navigation-visible" onClick={toggleState}>
+            Services
+            <img
+              className={toggle && "active"}
+              src={chevron}
+              alt=""
+              width="20px"
+              height="20px"
+            />
+          </a>
+
+          <div
+            className={
+              toggle ? "accordion-toogle animated " : "accordion-toggle"
+            }
+            style={{ height: toggle ? `${heightE1}` : "0px" }}
+            ref={refHeight}
+          >
+            <div className="navigation">
+              <a href="#" className="navigation-visible" onClick={toggleState}>
+                App Development
+                <img
+                  className={toggle && "active"}
+                  src={chevron}
+                  alt=""
+                  width="20px"
+                  height="20px"
+                />
+              </a>
+            </div>
+            <div
+              className={
+                toggle ? "accordion-toogle animated " : "accordion-toggle"
+              }
+              style={{ height: toggle ? `${heightE1}` : "0px" }}
+              ref={refHeight}
+            >
+              <a href="#">App Development</a>
+              <Link to="/Services">Mobile App Development</Link>
+              <Link to="/datapack">Hybrid App</Link>
+              <Link to="/wear">Wearable App</Link>
+              <a href="#"> App maintenance</a>
+              <a href="/quality">Quality Assurance</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <>
       <div className="footer">

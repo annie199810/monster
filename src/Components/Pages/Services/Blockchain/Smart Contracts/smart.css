@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat-Medium";
+  font-weight: bold;
+}
+@font-face {
+  font-family: "montserrat-Medium";
+  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+.hybrid {
+  padding: 200px;
+}
+.hybrid-bar {
+  border: 3px solid black;
+  background-color: black;
+}
+.hybrid-end {
+  border: 1px solid black;
+  background-color: black;
+}
+.hybrid-small {
+  border: 3px solid black;
+  background-color: black;
+  width: 60px;
+}
+.hybrid-info {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+.hybrid-title {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  font-size: 30px;
+}
+.hybrid-products {
+  font-size: 11px;
+  padding: 20px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.hybrid-items {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hybrid-para {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+}
+.hybrid-para h2 {
+  font-weight: 100;
+}
+.hybrid-para p {
+  font-size: 13px;
+  font-weight: 50;
+}
+.hybrid-app {
+  display: flex;
+  flex-direction: column;
+}
+.hybrid-btn {
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  width: 300px;
+  background-color: #02789e;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
+}
+.hybrid-btn:hover {
+  border: 2px solid #02789e;
+  color: black;
+  background-color: transparent;
+}
+@media (max-width: 1024px) {
+  .hybrid-info {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .hybrid-products {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .hybrid-products {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+  }
+}

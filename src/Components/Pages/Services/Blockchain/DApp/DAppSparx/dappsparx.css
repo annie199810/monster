@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat-Medium";
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "montserrat-Medium";
+  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+
+.sparx-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px;
+}
+.sparx-cards h3 {
+  font-size: 15px;
+  font-weight: 100;
+}
+.competitors {
+  padding: 160px;
+}
+
+.sparxit {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.sparx-bar {
+  width: 100%;
+  border: 4px solid black;
+  background-color: black;
+}
+.competitors-title {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+.competitors-title h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.competitors-title p {
+  font-size: 18px;
+  font-weight: 100;
+}
+@media (max-width: 1028px) {
+  .competitors {
+    padding: 30px;
+  }
+  .competitors-title h1 {
+    font-size: 30px;
+  }
+  .competitors-title p {
+    font-size: 15px;
+  }
+  .sparxit {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}

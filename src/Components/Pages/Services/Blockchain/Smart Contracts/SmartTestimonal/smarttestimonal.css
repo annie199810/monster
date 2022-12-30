@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat-Medium";
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "montserrat-Medium";
+  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+.visiting-customers {
+  border: 1px solid #bbb5b8;
+  padding: 150px;
+  background-color: #bbb5b8;
+}
+.customers-known {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 100px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
+  height: 500px;
+}
+.customers-known h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.customers-known p {
+  font-size: 15px;
+  font-weight: 100;
+}
+.border-testimonal {
+  border: 2px solid black;
+  background-color: black;
+  width: 100%;
+}
+.patrick-usa {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  margin-top: 50px;
+}
+.viewer-details {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.viewerz {
+  border: 1px solid black;
+  color: white;
+  padding: 12px;
+  background-color: black;
+  width: 100px;
+  height: 110px;
+}
+.viewerz p {
+  align-items: center;
+  text-align: center;
+  font-weight: 100;
+  font-size: 15px;
+}
+.viewerz h2 {
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+}
+.viewer-testimonals p {
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 900;
+}
+.side-border {
+  border-left: 1px solid black;
+  width: 80px;
+}
+@media (max-width: 1028px) {
+  .visiting-customers {
+    width: 100%;
+    padding: 20px;
+  }
+  .customers-known {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    padding: 40px;
+  }
+  .patrick-usa {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+  }
+  .viewer-testimonals p {
+    padding: 0;
+    font-size: 15px;
+  }
+}

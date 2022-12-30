@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat-Medium";
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "montserrat-Medium";
+  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+.message-content {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  background-color: #bcdfea;
+}
+.message-bar {
+  width: 50px;
+  border: 4px solid black;
+  background-color: black;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.message a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  position: relative;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.message a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.message a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.message a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}

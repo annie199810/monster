@@ -119,9 +119,18 @@ const Head = () => {
               <Link to="/datapack">Hybrid App</Link>
               <Link to="/wear">Wearable App</Link>
               <a href="#"> App maintenance</a>
-              <a href="#">Quality Assurance</a>
+              <Link to="/quality">Quality Assurance</Link>
             </div>
           </div>
+          <a href="#"> Blockchain Development</a>
+          <a href="/dapp"> DApp</a>
+          <a href="/smart"> Smart Contracts</a>
+          <a href="/defi">DeFi</a>
+          <a href="#"> Enterprise Blockchain</a>
+          <a href="#"> Wallets</a>
+          <a href="#"> Exchanges</a>
+          <a href="#"> NFT</a>
+          <a href="#">Metaverse</a>
         </div>
       </div>
     </div>
@@ -129,9 +138,9 @@ const Head = () => {
 
   return (
     <div className="top-nav">
-      <div className="learn">
+      <div className="learn-sparx">
         <p>Meet us in CES 2023 at Booth No. 21, Block 55828.</p>
-        <button className="more">LEARN MORE</button>
+        <button className="learn-btn">LEARN MORE</button>
       </div>
       <div className="main-logo">
         <img src={brandlogo} alt="" width="120px" height="43px" />
@@ -225,15 +234,15 @@ const Head = () => {
                 <Link to="/datapack">Hybrid App</Link>
                 <Link to="/wear">Wearable App</Link>
                 <a href="#"> App maintenance</a>
-                <a href="#">Quality Assurance</a>
+                <a href="/quality">Quality Assurance</a>
               </div>
               <div className="blockchain">
                 <h4>Blockchain</h4>
                 <a href="#"> Blockchain Development</a>
-                <a href="#"> DApp</a>
-                <a href="#"> Smart Contracts</a>
-                <a href="#">DeFi</a>
-                <a href="#"> Enterprise Blockchain</a>
+                <a href="/dapp"> DApp</a>
+                <a href="/smart"> Smart Contracts</a>
+                <a href="/defi">DeFi</a>
+                <a href="/enterprise"> Enterprise Blockchain</a>
                 <a href="#"> Wallets</a>
                 <a href="#"> Exchanges</a>
                 <a href="#"> NFT</a>
@@ -436,7 +445,7 @@ const Head = () => {
           </div>
         </div>
         <div className="con-btn">
-          <Link to="/connect">Contact Us</Link>
+          <Link to="/contactpage">Contact Us</Link>
         </div>
         {hamburger}
         {dropdown && dropcontent}
