@@ -116,7 +116,7 @@ const Head = () => {
             >
               <a href="#">App Development</a>
               <Link to="/Services">Mobile App Development</Link>
-              <Link to="/datapack">Hybrid App</Link>
+              <Link to="/HybridApps">Hybrid App</Link>
               <Link to="/wear">Wearable App</Link>
               <a href="#"> App maintenance</a>
               <Link to="/quality">Quality Assurance</Link>
@@ -231,7 +231,7 @@ const Head = () => {
               <div className="app-dev">
                 <h4>App Development</h4>
                 <Link to="/Services">Mobile App Development</Link>
-                <Link to="/datapack">Hybrid App</Link>
+                <Link to="/HybridApps">Hybrid App</Link>
                 <Link to="/wear">Wearable App</Link>
                 <a href="#"> App maintenance</a>
                 <a href="/quality">Quality Assurance</a>

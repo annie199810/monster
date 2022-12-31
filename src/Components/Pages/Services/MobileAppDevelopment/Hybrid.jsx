@@ -10,7 +10,7 @@ import Frequently from "./HybridApp/Frequently/frequently";
 import Readmore from "./HybridApp/Readmore/read";
 import Requestfees from "./HybridApp/Requestfees/request";
 
-const Datapack = () => {
+const HybridApps = () => {
   return (
     <>
       <Hybrid />
@@ -26,4 +26,4 @@ const Datapack = () => {
     </>
   );
 };
-export default Datapack;
+export default HybridApps;
