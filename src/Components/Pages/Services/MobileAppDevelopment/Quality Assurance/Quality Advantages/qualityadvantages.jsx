@@ -28,11 +28,11 @@ const QualityAdvantages = () => {
   const renderAdd = Benefits.map((adding) => {
     return (
       <>
-        <div className="hybrid-benefits">
+        <div className="Quality-benefits">
           <div className="title-benefits">
             <div className="benefits-bar"></div>
             <div className="add-bar"></div>
-            <div className="benefits">
+            <div className="Quality-content">
               <h2>{adding.title}</h2>
               <h3>{adding.info}</h3>
             </div>

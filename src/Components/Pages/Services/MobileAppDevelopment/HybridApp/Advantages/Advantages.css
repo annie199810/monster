@@ -15,7 +15,7 @@
 }
 .hybrid-benefits {
   background-color: #fdcfc1;
-  padding: 20px;
+  padding: 30px;
 }
 .benefits h3 {
   font-size: 16px;
@@ -36,10 +36,16 @@
   grid-template-columns: auto auto;
   gap: 150px;
 }
-.benefits {
-  display: flex;
-  flex-direction: row;
+.hybrid-content {
+  display: grid;
+  grid-template-columns: auto auto;
   gap: 30px;
+}
+.hybrid-content h3 {
+  text-align: justify;
+  align-items: justify;
+  font-size: 14px;
+  font-weight: 100;
 }
 @media (max-width: 1024px) {
   .add-benefits {

@@ -13,7 +13,7 @@
   padding: 40px;
   background-color: #fdcfc1;
 }
-.hybrid-benefits {
+.Quality-benefits {
   background-color: #fdcfc1;
   padding: 20px;
 }
@@ -36,10 +36,16 @@
   grid-template-columns: auto auto;
   gap: 150px;
 }
-.benefits {
-  display: flex;
-  flex-direction: row;
+.Quality-content {
+  display: grid;
+  grid-template-columns: auto auto;
   gap: 30px;
+}
+.Quality-content h3 {
+  text-align: justify;
+  align-items: justify;
+  font-size: 14px;
+  font-weight: 100;
 }
 @media (max-width: 1024px) {
   .add-benefits {
