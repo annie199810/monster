@@ -13,7 +13,7 @@ import SmartContracts from "./Components/Pages/Services/Blockchain/Smartcontract
 import DeFi from "./Components/Pages/Services/Blockchain/DeFi";
 import ContactPage from "./Components/Pages/Contact";
 import HybridApps from "./Components/Pages/Services/MobileAppDevelopment/Hybrid";
-import Assurance from "./Components/Pages/Services/MobileAppDevelopment/Quality;";
+import Assurance from "./Components/Pages/Services/MobileAppDevelopment/Quality";
 import EnterpriseBlockchain from "./Components/Pages/Services/Blockchain/Enterprise";
 function App() {
   return (
