@@ -11,11 +11,13 @@
 }
 .stake {
   background-color: rgb(240, 232, 233);
+  
 }
 .stake h1 {
   font-size: 40px;
   font-weight: bolder;
   padding: 20px;
+  line-height: 20px;
 }
 .stake p {
   font-size: 20px;
@@ -156,4 +158,8 @@
   margin-left: 50px;
 }
 @media (max-width: 480px) {
+  .stake h1{
+    
+    font-size: 20px;
+  }
 }

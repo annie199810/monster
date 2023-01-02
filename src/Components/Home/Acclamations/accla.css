@@ -51,6 +51,12 @@
     display: flex;
 
   }
+  @media  (max-width:760px) {
+    .text_section {
+      display: grid;
+      grid-template-columns: auto;
+    }
+}
   @media  (max-width: 480px) {
     .text_section {
       display: grid;

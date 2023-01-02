@@ -58,14 +58,14 @@
   }
   
   @media  (max-width:480px) {
-    .us{
+    .about-us{
         display: grid;
         grid-template-columns: auto;
     }
 }
 
 @media  (max-width:782px) {
-    .us{
+    .about-us{
         display: grid;
         grid-template-columns: auto;
         

@@ -6,7 +6,8 @@ const About = () => {
       <h1>What People Say About Us</h1>
       <div className="about-us">
         <div className="mur">
-          <img src="" alt="" />
+          <img src="https://www.sparxitsolutions.com/assets-style/images/Martino-Raco.jpg" alt="" 
+           width="150px" height="150px"/>
           <h2>Brandon-J.-Murray</h2>
           <h3>Germany</h3>
         </div>
