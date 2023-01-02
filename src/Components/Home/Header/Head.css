@@ -25,7 +25,8 @@
   font-weight: bolder;
 }
 .learn-sparx p {
-  font-weight: bolder;
+  font-weight: 900;
+  font-size: 17px;
 }
 .learn-btn {
   border: 1px solid black;
