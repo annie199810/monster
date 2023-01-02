@@ -8,13 +8,13 @@ import Ecom from "./Components/pages/services/ecom";
 import Serving from "./Components/pages/services/design";
 import Portfolio from "./Components/pages/work/portfolio";
 import Wearable from "./Components/Pages/Services/MobileAppDevelopment/Wearable";
-import Assurance from "./Components/Pages/Services/MobileAppDevelopment/Quality";
 import DAppdev from "./Components/Pages/Services/Blockchain/DAppdev";
 import SmartContracts from "./Components/Pages/Services/Blockchain/Smartcontract";
 import DeFi from "./Components/Pages/Services/Blockchain/DeFi";
-import EnterpriseBlockchain from "./Components/Pages/Services/Blockchain/Enterprise";
 import ContactPage from "./Components/Pages/Contact";
 import HybridApps from "./Components/Pages/Services/MobileAppDevelopment/Hybrid";
+import Assurance from "./Components/Pages/Services/MobileAppDevelopment/Quality;";
+import EnterpriseBlockchain from "./Components/Pages/Services/Blockchain/Enterprise";
 function App() {
   return (
     <>
