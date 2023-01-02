@@ -81,5 +81,8 @@
     grid-template-columns: auto;
     justify-content: center;
   }
+  .ideate h1{
+    font-size: 30px;
+  }
 }
  

@@ -88,4 +88,20 @@
         display: grid;
         grid-template-columns: auto;
     }
+    .expertise{
+        display: flex;
+        flex-direction: column;
+    }
+    .hy{
+        margin-left: 10px;
+    }
+    .io{
+        margin-left: 10px;
+    }
+    .st{
+        margin-left: 10px;
+    }
+    .ser-vice{
+        width: 500px;
+    }
 }

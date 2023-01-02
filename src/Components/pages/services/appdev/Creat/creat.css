@@ -172,3 +172,13 @@
     background-color: black;
     width: 143%;
 }
+@media(max-width:480px){
+.page{
+    display: flex;
+    flex-direction: column;
+}
+.Know{
+    display: grid;
+    grid-template-columns: auto;
+}
+}

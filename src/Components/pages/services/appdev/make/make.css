@@ -19,8 +19,6 @@
     display:grid;
     grid-template-columns: auto auto;
    margin-top: 50px;
-    gap: 10px;
-   
 
 }
 .com{
