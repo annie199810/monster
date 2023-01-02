@@ -1,7 +1,6 @@
 import React from "react";
 import "./requestfees.css";
 import { useEffect, useState } from "react";
-import connect from "../../../../../../assets/Images/pages/Services/App Development/Hybrid App/connect.jpg";
 const Requestform = () => {
   const initialValues = {
     fullname: "",
@@ -54,7 +53,7 @@ const Requestform = () => {
       <div className="connect">
         <div className="provide">
           <h2>Let’s Connect.</h2>
-          <img src={connect} alt="" width="220" height="150" />
+          {/* <img src="" alt="" width="220" height="150" /> */}
           <p>
             Your business idea is valuable. We are here to provide you with the
             right business expertise.
