@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "montserrat-Medium";
+}
+@font-face {
+  font-family: "montserrat-Medium";
+  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+
+.accla {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding: 150px;
+}
+.Acclamations-title {
+  padding: 20px;
+}
+.Acclamations-title p {
+  font-size: 11px;
+  font-weight: 50;
+}
+/*clutch*/
+
+.accla-clutch {
+  border: 2px solid black;
+  background-color: black;
+  padding: 10px;
+  align-items: center;
+  width: 200px;
+}
+.img-clutch {
+  display: flex;
+  flex-direction: column;
+}
+.clutch-text {
+  border: 2px solid black;
+  font-size: 11px;
+  padding: 10px;
+  align-items: center;
+  margin-left: 40px;
+  width: 200px;
+}
+
+/*Goodfirms*/
+
+.accla-goodfirms {
+  border: 2px solid black;
+  background-color: black;
+  padding: 10px;
+  align-items: center;
+  width: 200px;
+}
+.img-goodfirms {
+  display: flex;
+  flex-direction: column;
+}
+.goodfirm-text {
+  border: 2px solid black;
+  font-size: 11px;
+  padding: 10px;
+  align-items: center;
+  margin-left: 40px;
+  width: 200px;
+}
+/* yourstory*/
+.accla-yourstory {
+  border: 2px solid black;
+  background-color: black;
+  padding: 10px;
+  align-items: center;
+  width: 200px;
+}
+.img-yourstory {
+  display: flex;
+  flex-direction: column;
+}
+.yourstory-text {
+  border: 2px solid black;
+  font-size: 11px;
+  padding: 10px;
+  align-items: center;
+  margin-left: 40px;
+  width: 200px;
+}
+@media (max-width: 1048px) {
+  .accla {
+    display: flex;
+    flex-direction: column;
+  }
+}

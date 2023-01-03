@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat-Medium";
+  font-weight: bold;
+}
+@font-face {
+  font-family: "montserrat-Medium";
+  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+.DApp-tech {
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.DApp-tech h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.DApp-tech p {
+  font-size: 15px;
+  font-weight: 100;
+}
+.blockchain-platform {
+  margin-left: 150px;
+  border: 1px solid white;
+  background-color: white;
+  width: 1150px;
+  height: 1050px;
+  box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
+}
+.blockchain-tech {
+  padding: 100px;
+}
+.blockchain-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.blockchain-tech h1 {
+  color: red;
+
+  font-weight: 900;
+}
+.blockchain-brands {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 100px;
+  margin-right: 140px;
+}
+.blockchain-brands img {
+  border: 1px solid black;
+  padding: 4px 50px;
+}
+.dashed-bar {
+  border: 1px dotted black;
+  width: 1000px;
+  margin-left: 50px;
+}
+.technology-stack {
+  padding: 100px;
+  color: red;
+}
+.technology {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.technology-brands {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 100px;
+  gap: 20px;
+}
+.technology-brands img {
+  border: 1px solid black;
+  padding: 4px 50px;
+}
