@@ -16,7 +16,8 @@
   z-index: 99;
 }
 .learn-sparx {
-  background-image: url("../../../assets//images/header/sparx-banner.jpg");
+  background-image: url("../../../assets/Images/Header/las.jpg");
+  /* background-image: url("../../../assets//images/header/sparx-banner.jpg"); */
   display: flex;
   flex-direction: row;
   padding: 5px;
