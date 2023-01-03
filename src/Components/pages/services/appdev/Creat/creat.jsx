@@ -8,7 +8,7 @@ const Creat=()=>{
     <div className="view1">
         <h2>Created 500+ Exclusive Mobile Apps  <button>Browse Our Portfolio</button></h2>
        
-        <div className="page">
+        <div className="pagess">
             <div className="page1">
                 <img src=" https://www.sparxitsolutions.com/assets-style/portfolio/portfolio-web/wonderfruit.jpg"alt=""
                  width="350"
@@ -43,7 +43,7 @@ const Creat=()=>{
         </div>
         </div>
     <div className="view2">
-        <div className="Know">
+        <div className="Knows">
             <div className="Say">
          <h1>Know What Our Customers Say</h1>
          <h3>Bringing the Best to Our Customers & Making Them the Happiest.</h3>
@@ -54,7 +54,7 @@ const Creat=()=>{
             <div className="custom-bar"></div>
             </div>
     
-            <div className="Martino">
+            <div className="Marti-no">
                 <div className="Australia">
                 <img src="https://www.sparxitsolutions.com/assets-style/images/Martino-Raco.jpg" alt="" 
            width="150px"

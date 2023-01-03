@@ -9,10 +9,10 @@
     font-family: "montserrat-Medium";
     font-weight: bold;
 }
-.step{
+.steps{
     background-color:#f9f8f8;
 }
-.double{
+.doubles{
     display: grid;
     grid-template-columns: auto auto;
     gap: 20px;
@@ -27,14 +27,11 @@
     flex-direction: row;
     gap: 20px;
 }
-.analys{
+.Analys{
     width:200px;
     height: 400px;
 }
-.analys hr{
-    border: 2px solid black;
-}
-.analys h2{
+.Analys h2{
     padding: 30px;
 }
 .finds{
@@ -48,11 +45,29 @@
     line-height:20px;
 }
 
-.an-alys{
+.An-alys{
     border: 1px solid black;
     width: 670px;
 }
 .an-alyss{
     border: 2px solid black;
     width: 170px;
+}
+@media(max-width:480px){
+    .doubles{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .An-alys{
+        width: 500px;
+    }
+    .Analys{
+        width: 100px;
+    }
+    .Analys h2{
+       font-size: 20px;
+    }
+    .finds h3{
+        font-size: 12px;
+    }
 }

@@ -172,3 +172,9 @@
     background-color: black;
     width: 143%;
 }
+@media(max-width:480px){
+    .abdullah{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

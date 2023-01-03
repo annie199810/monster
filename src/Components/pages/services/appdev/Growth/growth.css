@@ -210,3 +210,11 @@
 .commit h3{
     font-size: 30px;
 }
+@media(max-width:480px){
+    .growth h1{
+        font-size: 30px;
+    }
+    .growth{
+        margin-top: 200%;
+    }
+}

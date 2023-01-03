@@ -9,13 +9,13 @@
     font-family: "montserrat-Medium";
     font-weight: bold;
 }
-.section{
+.sections{
    display: grid;
    grid-template-columns: auto auto auto auto;
     height:200px;
    background-color:#f9f8f8;
 }
-.card{
+.cards{
     width: 250px;
     height: 60px;
     text-align: center;
@@ -24,10 +24,10 @@
     background-color: black;
     
 }
-.card h2{
+.cards h2{
     color: aliceblue;
 }
-.appp {
+.appps {
     margin-top: 30px;
     height: 50px;
     width: 250px;
@@ -39,7 +39,7 @@
     border: 1px solid black;
     
   }
-  .appp p {
+  .appps p {
     font-size: 16px;
     font-weight: 500;
   }
@@ -55,9 +55,10 @@
     color: #14151b;
   }
   @media  (max-width: 480px) {
-    .section {
+    .sections {
       display: grid;
       grid-template-columns: auto;
-      line-height: 50px;
+     margin-top: 100%;
+      
     }
 }

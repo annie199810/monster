@@ -9,7 +9,7 @@
     font-family: "montserrat-Medium";
     font-weight: bold;
 }
-.section{
+.sectionss{
    display: grid;
    grid-template-columns: auto auto auto auto;
    
@@ -56,9 +56,9 @@
     color: #14151b;
   }
   @media  (max-width: 480px) {
-    .section {
+    .sectionss {
       display: grid;
       grid-template-columns: auto;
-      height: 500px;
+  
     }
 }

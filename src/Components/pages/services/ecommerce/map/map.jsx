@@ -27,7 +27,7 @@ const Map = () => {
   });
   return (
     <>
-      <div className="section">
+      <div className="sectionss">
         <div className="hiii">
           <h1>Acclamations</h1>
           <p>

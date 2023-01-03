@@ -32,10 +32,10 @@ const Make=()=>{
     <h3>The app usability is at the core of our app design & development process.</h3>
   </div>
   </div>
-  <div className="bene">
+  {/* <div className="bene">
    <img src="https://www.sparxitsolutions.com/assets-style/images/benefits-img.svg" alt=""
    width="600px" height="450px" />
-  </div>
+  </div> */}
 </div>
 </div>
     )

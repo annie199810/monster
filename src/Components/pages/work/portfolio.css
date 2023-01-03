@@ -9,23 +9,23 @@
     font-family: "montserrat-Medium";
     font-weight: bold;
 }
-.pages{
+.pag-es{
     background-color: #f9f8f8;
 }
-.pages h1{
+.pag-es h1{
     font-size: 40px;
     padding: 40px;
     color: red;
 }
-.pages h2{
+.pag-es h2{
     color: #373738;
     margin-left: 35px;
 }
-.pages h3{
+.pag-es h3{
     margin-left: 30px;
     margin-top: 20px;
 }
-.pages h5{
+.pag-es h5{
     margin-left: 20px;
     padding: 10px;
 }
@@ -481,4 +481,14 @@
     grid-template-columns: auto auto auto;
     background-color: #bcdfea;
     gap: 50px;
+}
+@media(max-width:480px){
+    .images{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .pag-es h1{
+        margin-top: 20px;
+    }
 }

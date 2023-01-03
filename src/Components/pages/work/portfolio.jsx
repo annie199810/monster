@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css"
 const Portfolio = () => {
     return(
-        <div className="pages">
+        <div className="pag-es">
         <h1>Mobile app and Web Development Portfolio</h1>
         <h2>Get your project done!</h2>
         <h2>Whatever your business need or budget, we'll help get done.</h2>
