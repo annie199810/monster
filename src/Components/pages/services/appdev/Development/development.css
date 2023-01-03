@@ -250,3 +250,8 @@
 .iot h3:hover{
     color: red;
 }
+@media(max-width:480px){
+    .fault{
+        margin-top: 100%;
+    }
+}

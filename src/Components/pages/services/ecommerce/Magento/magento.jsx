@@ -3,7 +3,7 @@ import "./magento.css"
 
 const Magento=()=>{
     return(
- <div className="boost">
+ <div className="boos">
      <div className="idea">
         <hr></hr>
  <h4>8 mins read</h4>

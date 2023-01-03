@@ -12,7 +12,7 @@
 .make{
  height: 700px;
  background-color: darksalmon;
- padding: 20px;
+
  
 }
 .credi-ble{
@@ -60,5 +60,8 @@
     .credi-ble{
         display: grid;
         grid-template-columns: auto;
+    }
+    .make{
+        font-size: 15px;
     }
 }

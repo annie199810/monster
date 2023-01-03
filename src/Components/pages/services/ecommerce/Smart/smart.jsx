@@ -3,34 +3,34 @@ import "./smart.css"
 
 const Smart=()=>{
     return(
- <div className="step">
+ <div className="steps">
     <h1>Our Smart Approach For eCommerce Web Development</h1>
-    <div className="double">
-    <div className="process">
+    <div className="doubles">
+    <div className="processimg">
  <img src="https://www.sparxitsolutions.com/assets-style/images/process-five.svg" alt=""
  width="500" height="600" />
     </div>
     <div className="Analysi">
-<div className="analys">
+<div className="Analys">
     
-<div className="an-alys"></div>
+<div className="An-alys"></div>
     <div className="an-alyss"></div>
 <h2>Discovery</h2>
     
-<div className="an-alys"></div>
+<div className="An-alys"></div>
     <div className="an-alyss"></div>
 <h2>Design</h2>
     
-<div className="an-alys"></div>
+<div className="An-alys"></div>
     <div className="an-alyss"></div>
 <h2>Development</h2>
     
-<div className="an-alys"></div>
-    <div className="an-alyss"></div>
+<div className="An-alys"></div>
+    <div className="An-alyss"></div>
 <h2>Testing</h2>
     
-<div className="an-alys"></div>
-    <div className="an-alyss"></div>
+<div className="An-alys"></div>
+    <div className="An-alyss"></div>
 <h2>Deployment</h2>
 </div>
 <div className="finds">

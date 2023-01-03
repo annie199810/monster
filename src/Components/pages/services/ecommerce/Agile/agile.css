@@ -12,7 +12,7 @@
 .enhance{
  height: 700px;
  background-color: darksalmon;
- padding: 20px;
+ 
  
 }
 .credible{
@@ -20,7 +20,7 @@
     grid-template-columns: auto auto;
    margin-top: 50px;
     gap: 10px;
-   margin-left: 60px;
+  
 
 }
 .comp{
@@ -63,5 +63,8 @@
     .credible{
         display: grid;
         grid-template-columns: auto;
+    }
+    .enhance{
+        font-size: 15px;
     }
 }

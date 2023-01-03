@@ -89,9 +89,15 @@
     margin-top: 30px;
 }
 @media(max-width:480px){
-    .services{
+    .ecommerce{
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
+    }
+    .ecomm-erce h1{
+        font-size: 26px;
+    }
+    .ecomm-erce{
+        width: 500px;
     }
 }

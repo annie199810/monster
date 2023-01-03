@@ -101,5 +101,28 @@
     .company{
         display: grid;
         grid-template-columns:auto;
+        width: 500px;
+    }
+    .com-pany h1{
+        font-size:33px;
+    }
+    .exper-tises{
+        display: flex;
+        flex-direction: column;
+    }
+    .Upgradation{
+        margin-left: 10px;
+    }
+    .Security{
+        margin-left: 10px;
+    }
+    .Maintenance{
+        margin-left: 10px;
+    }
+    .PWA{
+        margin-left: 10px;
+    }
+    .com-pany hr{
+        width: 300px;
     }
 }

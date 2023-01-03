@@ -32,7 +32,7 @@
     height: 400px;
 }
 .analys hr{
-    border: 2px solid black;
+    border: 2px solid rgb(196, 35, 35);
 }
 .analys h2{
     padding: 30px;
@@ -52,4 +52,16 @@
 .an-alyss{
     border: 2px solid black;
     width: 170px;
+}
+@media(max-width:480px){
+    .double{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .aux{
+        width: 300px;
+    }
+    .aux h3{
+        font-size: 16px;
+    }
 }

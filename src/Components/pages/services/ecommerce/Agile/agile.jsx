@@ -36,10 +36,10 @@ Tech-Stack</h2>
     <h3>Using the latest trends and technologies to create fundamentally strong web app architecture.</h3>
   </div>
   </div>
-  <div className="benes">
+  {/* <div className="benes">
    <img src="https://www.sparxitsolutions.com/assets-style/images/benefits-img.svg" alt=""
    width="500px" height="450px"/>
-  </div>
+  </div> */}
 </div>
 </div>
     )

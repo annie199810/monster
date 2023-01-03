@@ -115,7 +115,7 @@
     box-shadow: 4px 4px lightgrey;
     transition: transform.10s; 
 }
-.Know{
+.Knows{
     display:grid;
     grid-template-columns: auto auto;
     gap: 20px;
@@ -139,7 +139,7 @@
     width: 300px;
     height: 180px;
 }
-.Martino{
+.Marti-no{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
@@ -174,8 +174,13 @@
     width: 143%;
 }
 @media(max-width:480px){
-    .view{
-        display: grid;
-        grid-template-columns: auto;
-    }
+  
+.Knows{
+    display: grid;
+    grid-template-columns: auto;
+}
+.Marti-no{
+    display: grid;
+    grid-template-columns: auto;
+}
 }

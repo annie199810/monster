@@ -15,10 +15,10 @@ const Map = () => {
   const renderMap = texts.map((texts) => {
     return (
       <>
-        <div className="card">
+        <div className="cards">
           <h2>{texts.title}</h2>
 
-          <div className="appp">
+          <div className="appps">
             <p>{texts.text}</p>
           </div>
         </div>
@@ -27,7 +27,7 @@ const Map = () => {
   });
   return (
     <>
-      <div className="section">
+      <div className="sections">
         <div className="hiii">
           <h1>Acclamations</h1>
           <p>

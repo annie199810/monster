@@ -51,12 +51,6 @@
     gap: 20px;
     align-items: center;
   }
-  
-  .form-columnone .form-content {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
   .form-columns {
     display: flex;
     flex-direction: row;

@@ -9,9 +9,10 @@
     font-family: "montserrat-Medium";
     font-weight: bold;
 }
-.boost {
+.boos {
    display: flex;
    flex-direction: row;
+
     background-color: #bcdfea;
     height: 400px;
     gap: 50px;
@@ -87,3 +88,4 @@
     width: 50px;
     margin-left: 30px;
    }
+  
