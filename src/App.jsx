@@ -15,6 +15,7 @@ import ContactPage from "./Components/Pages/Contact";
 import HybridApps from "./Components/Pages/Services/MobileAppDevelopment/Hybrid";
 import Assurance from "./Components/Pages/Services/MobileAppDevelopment/Quality";
 import EnterpriseBlockchain from "./Components/Pages/Services/Blockchain/Enterprise";
+import Wallets from "./Components/Pages/Services/Blockchain/Wallets";
 function App() {
   return (
     <>
@@ -33,6 +34,7 @@ function App() {
         <Route path="/smart" element={<SmartContracts />} />
         <Route path="/defi" element={<DeFi />} />
         <Route path="/enterprise" element={<EnterpriseBlockchain />} />
+        <Route path="/wallets" element={<Wallets />} />
       </Routes>
       <Footer />
     </>

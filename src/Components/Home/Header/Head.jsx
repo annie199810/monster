@@ -242,7 +242,7 @@ const Head = () => {
                 <Link to="/smart"> Smart Contracts</Link>
                 <Link to="/defi">DeFi</Link>
                 <Link to="/enterprise"> Enterprise Blockchain</Link>
-                <a href="#"> Wallets</a>
+                <Link to="/wallets"> Wallets</Link>
                 <a href="#"> Exchanges</a>
                 <a href="#"> NFT</a>
                 <a href="#">Metaverse</a>
