@@ -95,7 +95,7 @@ const Head = () => {
             style={{ height: toggle ? `${heightE1}` : "0px" }}
             ref={refHeight}
           >
-            <div className="navigation">
+            <div className="navigation-app">
               <a href="#" className="navigation-visible" onClick={toggleState}>
                 App Development
                 <img
@@ -114,7 +114,6 @@ const Head = () => {
               style={{ height: toggle ? `${heightE1}` : "0px" }}
               ref={refHeight}
             >
-              <a href="#">App Development</a>
               <Link to="/Services">Mobile App Development</Link>
               <Link to="/HybridApps">Hybrid App</Link>
               <Link to="/wear">Wearable App</Link>
@@ -122,7 +121,7 @@ const Head = () => {
               <Link to="/quality">Quality Assurance</Link>
             </div>
           </div>
-          <a href="#"> Blockchain Development</a>
+          {/* <a href="#"> Blockchain Development</a>
           <a href="/dapp"> DApp</a>
           <a href="/smart"> Smart Contracts</a>
           <a href="/defi">DeFi</a>
@@ -130,7 +129,7 @@ const Head = () => {
           <a href="#"> Wallets</a>
           <a href="#"> Exchanges</a>
           <a href="#"> NFT</a>
-          <a href="#">Metaverse</a>
+          <a href="#">Metaverse</a> */}
         </div>
       </div>
     </div>
@@ -234,19 +233,19 @@ const Head = () => {
                 <Link to="/HybridApps">Hybrid App</Link>
                 <Link to="/wear">Wearable App</Link>
                 <a href="#"> App maintenance</a>
-                <a href="/quality">Quality Assurance</a>
+                <Link to="/quality">Quality Assurance</Link>
               </div>
               <div className="blockchain">
                 <h4>Blockchain</h4>
                 <a href="#"> Blockchain Development</a>
-                <a href="/dapp"> DApp</a>
-                <a href="/smart"> Smart Contracts</a>
-                <a href="/defi">DeFi</a>
-                <a href="/enterprise"> Enterprise Blockchain</a>
-                <a href="#"> Wallets</a>
-                <a href="#"> Exchanges</a>
-                <a href="#"> NFT</a>
-                <a href="#">Metaverse</a>
+                <Link to="/dapp"> DApp</Link>
+                <Link to="/smart"> Smart Contracts</Link>
+                <Link to="/defi">DeFi</Link>
+                <Link to="/enterprise"> Enterprise Blockchain</Link>
+                <Link to="/wallets"> Wallets</Link>
+                <Link to="/exchange"> Exchanges</Link>
+                <a href="/nft"> NFT</a>
+                <a href="/meta">Metaverse</a>
               </div>
               <div className="startup-app">
                 <h4>Startup Services</h4>

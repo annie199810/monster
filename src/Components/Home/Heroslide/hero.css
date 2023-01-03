@@ -15,11 +15,10 @@
   background-size: cover;
   background-position: 55% 55%;
   width: 100%;
-  padding:0px;
-
+  padding: 0px;
 }
 .tech {
-  display:flex;
+  display: flex;
   flex-direction: column;
   padding-top: 80px;
   gap: 140px;
@@ -35,7 +34,7 @@
   color: #e42c38;
   font-size: 65px;
   font-weight: bolder;
-  margin-top:40px;
+  margin-top: 40px;
 }
 .ideate h2 {
   padding-left: 30px;
@@ -48,11 +47,11 @@
   font-weight: 300;
   font-size: 1.1rem;
   color: #84848a;
-  line-height: 1.0;
+  line-height: 1;
   padding-left: 30px;
 }
 
-.ideate{
+.ideate {
   width: 400px;
   height: 300px;
 }
@@ -81,8 +80,7 @@
     grid-template-columns: auto;
     justify-content: center;
   }
-  .ideate h1{
+  .ideate h1 {
     font-size: 30px;
   }
 }
- 

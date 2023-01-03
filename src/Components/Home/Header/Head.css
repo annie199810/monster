@@ -25,7 +25,8 @@
   font-weight: bolder;
 }
 .learn-sparx p {
-  font-weight: bolder;
+  font-weight: 900;
+  font-size: 15px;
 }
 .learn-btn {
   border: 1px solid black;
@@ -1258,6 +1259,9 @@
   .con-btn {
     display: none;
   }
+  .services .service-btn {
+    display: none;
+  }
   .learn {
     display: flex;
     flex-direction: row;
@@ -1269,7 +1273,16 @@
   }
   .main-logo {
     top: 33px;
-    height: 30px;
+    height: 100px;
+  }
+  .learn-sparx {
+    background-image: url("../../../assets//images/header/sparx-banner.jpg");
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+    font-weight: bolder;
   }
 }
 .navigation-visible {
@@ -1286,6 +1299,8 @@
   background: #f1f1f1;
 }
 .navigation-visible img {
+  display: flex;
+  flex-direction: row;
   transform: rotate(0deg);
   transition: transform 0.2s ease-in-out;
 }
@@ -1302,8 +1317,9 @@
   opacity: 1;
   transition: height 0.3s ease-in-out, opacity 0.3s 0.3s ease-in-out;
 }
-/* .navigation a {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-  } */
+.navigation a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
