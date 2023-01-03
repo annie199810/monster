@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const QualityDevelopment = () => {
   return (
     <>
-      <div className="hybrid-dev">
-        <div className="dev-title">
+      <div className="MobileApp-dev">
+        <div className="Mobiledev-title">
           <h1>
             Factors That Make Us A Unique Web & <br />
             Mobile App Testing Company
@@ -17,9 +17,9 @@ const QualityDevelopment = () => {
             competitive, and flawless for good.
           </h2>
         </div>
-        <div className="hybrid-stakes">
-          <div className="react-native">
-            <div className="stakes-bar"></div>
+        <div className="Real-device">
+          <div className="Device-Coverage">
+            <div className="Real-bar"></div>
             <h2>Real Device Coverage</h2>
             <p>
               Unlike the other mobile app testing service providers that heavily
@@ -29,8 +29,8 @@ const QualityDevelopment = () => {
               before delivery.
             </p>
           </div>
-          <div className="flutter-dev">
-            <div className="stakes-bar"></div>
+          <div className="Smart-Testing">
+            <div className="Real-bar"></div>
             <h2>Smart Testing Tools</h2>
             <p>
               We utilize the best mobile application testing strategy & varied
@@ -40,8 +40,8 @@ const QualityDevelopment = () => {
               and security of your app.
             </p>
           </div>
-          <div className="maintenance">
-            <div className="stakes-bar"></div>
+          <div className="Facility">
+            <div className="Real-bar"></div>
             <h2>Best-In-Class Testing Facility</h2>
             <p>
               We have the best testing facility with our talented app testing

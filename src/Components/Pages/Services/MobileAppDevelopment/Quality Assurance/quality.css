@@ -81,6 +81,9 @@
   background-color: transparent;
 }
 @media (max-width: 1024px) {
+  .Quality {
+    padding: 150px;
+  }
   .Quality-info {
     display: grid;
     grid-template-columns: auto;
