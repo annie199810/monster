@@ -118,6 +118,16 @@ textarea:hover {
 .formsubmit button:hover {
   color: white;
 }
+@media (max-width: 768px) {
+  .connect {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0;
+  }
+  .request {
+    padding: 0px;
+  }
+}
 @media (max-width: 480px) {
   .connect {
     display: grid;

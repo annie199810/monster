@@ -161,7 +161,7 @@
   border-left: 1px solid black;
   width: 80px;
 }
-@media (max-width: 1028px) {
+@media (max-width: 768px) {
   .gall {
     display: grid;
     grid-template-columns: auto;

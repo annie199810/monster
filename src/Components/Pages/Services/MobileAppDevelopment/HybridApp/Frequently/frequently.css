@@ -87,7 +87,7 @@
   background-color: lightgray;
   margin-left: 140px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .visible-n {
     padding: 20px;
     margin-left: 40px;

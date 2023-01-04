@@ -46,7 +46,7 @@
   font-size: 18px;
   font-weight: 100;
 }
-@media (max-width: 1028px) {
+@media (max-width: 768px) {
   .competitors {
     padding: 30px;
   }
