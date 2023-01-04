@@ -84,7 +84,7 @@
   margin-left: 40px;
   width: 200px;
 }
-@media (max-width: 1048px) {
+@media (max-width: 480px) {
   .accla {
     display: flex;
     flex-direction: column;

@@ -9,97 +9,72 @@
   font-family: "montserrat-Medium";
   src: url(../../../assets/fonts/Montserrat-Medium.ttf);
 }
-.hybrid-dev {
+.exchange-dev {
   padding: 100px;
   background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
 }
-.dev-title {
+.exchange-title {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.dev-title h1 {
+.exchange-title h1 {
   font-size: 40px;
   font-weight: 900;
 }
-.dev-title h2 {
+.exchange-title h2 {
   font-weight: 10;
   font-size: 20px;
 }
-.dev-title p {
+.exchange-title p {
   font-weight: lighter;
 }
-.hybrid-stakes {
+.experienced-developers {
   padding: 40px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 50px;
 }
-.stakes-bar {
+.exchange-bar {
   border: 3px solid black;
   width: 100%;
   background-color: black;
 }
-.react-native h2:hover {
+.efficient-develop h2:hover {
   color: red;
 }
-.react-native p {
+.efficient-develop p {
   font-weight: 50;
 }
-.flutter-dev h2:hover {
+.Timeliness h2:hover {
   color: red;
 }
-.flutter-dev p {
+.Timeliness p {
   font-weight: 50;
 }
-.maintenance h2:hover {
-  color: red;
-}
-.maintenance p {
-  font-weight: 50;
-}
-.react-native {
+.efficient-develop {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.flutter-dev {
+.Timeliness {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.maintenance {
+
+.Affordable {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.exchange {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.exchange p {
+.Affordable p {
   font-weight: 100;
 }
-.smart-contract {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.smart-contract p {
-  font-weight: 100;
-}
-.smart-audit {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.smart-audit p {
-  font-weight: 100;
-}
-@media (max-width: 1024px) {
+
+@media (max-width: 480px) {
   .hybrid-stakes {
     display: grid;
     grid-template-columns: auto;

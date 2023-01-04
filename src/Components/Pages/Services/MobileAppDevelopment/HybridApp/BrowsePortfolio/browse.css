@@ -161,7 +161,7 @@
   border-left: 1px solid black;
   width: 80px;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .gall {
     display: grid;
     grid-template-columns: auto;
@@ -180,6 +180,9 @@
     flex-direction: column;
     width: 650px;
     padding: 40px;
+  }
+  .customers-known h1 {
+    font-size: 10px;
   }
   .patrick-usa {
     display: grid;

@@ -28,11 +28,11 @@ const WalletAdvantages = () => {
   const renderAdd = Benefits.map((adding) => {
     return (
       <>
-        <div className="hybrid-benefits">
+        <div className="wallet-benefits">
           <div className="title-benefits">
             <div className="benefits-bar"></div>
             <div className="add-bar"></div>
-            <div className="benefits">
+            <div className="wallet-content">
               <h2>{adding.title}</h2>
               <h3>{adding.info}</h3>
             </div>
@@ -45,7 +45,8 @@ const WalletAdvantages = () => {
     <>
       <div className="advantages">
         <h1>
-          Perks of Choosing Our Cryptocurrency Wallet App Development Service
+          Perks of Choosing Our Cryptocurrency Wallet App
+          <br /> Development Service
         </h1>
         <div className="add-benefits">
           <div className="benefits-img">{renderAdd}</div>

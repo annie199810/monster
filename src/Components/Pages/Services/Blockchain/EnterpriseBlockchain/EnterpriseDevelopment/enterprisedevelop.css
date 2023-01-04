@@ -9,78 +9,78 @@
   font-family: "montserrat-Medium";
   src: url(../../../assets/fonts/Montserrat-Medium.ttf);
 }
-.hybrid-dev {
+.enterprise-dev {
   padding: 100px;
   background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
 }
-.dev-title {
+.enterprisedev-title {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.dev-title h1 {
+.enterprisedev-title h1 {
   font-size: 40px;
   font-weight: 900;
 }
-.dev-title h2 {
+.enterprisedev-title h2 {
   font-weight: 10;
   font-size: 20px;
 }
-.dev-title p {
+.enterprisedev-title p {
   font-weight: lighter;
 }
-.hybrid-stakes {
+.DApp-develop {
   padding: 40px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 50px;
 }
-.stakes-bar {
+.enterprise-bar {
   border: 3px solid black;
   width: 100%;
   background-color: black;
 }
-.react-native h2:hover {
+.exposure-dev h2:hover {
   color: red;
 }
-.react-native p {
+.exposure-dev p {
   font-weight: 50;
 }
-.flutter-dev h2:hover {
+.private-dev h2:hover {
   color: red;
 }
-.flutter-dev p {
+.private-dev p {
   font-weight: 50;
 }
-.maintenance h2:hover {
+.crypto-dev h2:hover {
   color: red;
 }
-.maintenance p {
+.crypto-dev p {
   font-weight: 50;
 }
-.react-native {
+.exposure-dev {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.flutter-dev {
+.private-dev {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.maintenance {
+.crypto-dev {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.exchange {
+.exchange-platform {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.exchange p {
+.exchange-platform p {
   font-weight: 100;
 }
 .smart-contract {
@@ -99,8 +99,8 @@
 .smart-audit p {
   font-weight: 100;
 }
-@media (max-width: 1024px) {
-  .hybrid-stakes {
+@media (max-width: 480px) {
+  .DApp-develop {
     display: grid;
     grid-template-columns: auto;
   }

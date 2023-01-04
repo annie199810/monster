@@ -9,98 +9,97 @@
   font-family: "montserrat-Medium";
   src: url(../../../assets/fonts/Montserrat-Medium.ttf);
 }
-.hybrid-dev {
+.metaverse-dev {
   padding: 100px;
   background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
 }
-.dev-title {
+.metaversedev-title {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.dev-title h1 {
+.metaversedev-title h1 {
   font-size: 40px;
   font-weight: 900;
 }
-.dev-title h2 {
-  font-weight: 10;
+.metaversedev-title h2 {
+  font-weight: 100;
   font-size: 20px;
 }
-.dev-title p {
+.metaversedev-title p {
   font-weight: lighter;
 }
-.hybrid-stakes {
+.proof-metaverse {
   padding: 40px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 50px;
 }
-.stakes-bar {
+.metaverse-bar {
   border: 3px solid black;
   width: 100%;
   background-color: black;
 }
-.react-native h2:hover {
+.owner-metaverse h2:hover {
   color: red;
 }
-.react-native p {
-  font-weight: 50;
+.owner-metaverse p {
+  font-weight: 500;
 }
-.flutter-dev h2:hover {
+.digital-assets h2:hover {
   color: red;
 }
-.flutter-dev p {
-  font-weight: 50;
+.digital-assets p {
+  font-weight: 500;
 }
-.maintenance h2:hover {
-  color: red;
-}
-.maintenance p {
-  font-weight: 50;
-}
-.react-native {
+
+.owner-metaverse {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.flutter-dev {
+.digital-assets {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.maintenance {
+
+.governance-meta {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.exchange {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.exchange p {
+.governance-meta p {
   font-weight: 100;
 }
-.smart-contract {
+.inter-meta {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.smart-contract p {
+.inter-meta p {
   font-weight: 100;
 }
-.smart-audit {
+.access-meta {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.smart-audit p {
+.access-meta p {
   font-weight: 100;
 }
-@media (max-width: 1024px) {
-  .hybrid-stakes {
+.integration-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.integration-meta p {
+  font-weight: 100;
+}
+@media (max-width: 480px) {
+  .proof-metaverse {
     display: grid;
     grid-template-columns: auto;
   }

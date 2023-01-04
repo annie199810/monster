@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const NFTDevelopment = () => {
   return (
     <>
-      <div className="hybrid-dev">
-        <div className="dev-title">
+      <div className="nft-dev">
+        <div className="nftdev-title">
           <h1>
             Our Range of NFT Marketplace
             <br /> Development Services
@@ -15,9 +15,9 @@ const NFTDevelopment = () => {
             solutions
           </h2>
         </div>
-        <div className="hybrid-stakes">
-          <div className="react-native">
-            <div className="stakes-bar"></div>
+        <div className="custom-nft">
+          <div className="custom-marketplace">
+            <div className="nft-bar"></div>
             <h2>Custom NFT Marketplace</h2>
             <p>
               Our team of developers builds fully-personalized NFT marketplaces
@@ -26,8 +26,8 @@ const NFTDevelopment = () => {
               options, and customizable user dashboards.
             </p>
           </div>
-          <div className="flutter-dev">
-            <div className="stakes-bar"></div>
+          <div className="white-label">
+            <div className="nft-bar"></div>
             <h2>White-Label NFT Marketplace</h2>
             <p>
               Onboard a ready-to-use NFT marketplace to suit your diversified
@@ -36,8 +36,8 @@ const NFTDevelopment = () => {
               integration, built-in security, and other customization tools.
             </p>
           </div>
-          <div className="exchange">
-            <div className="stakes-bar"></div>
+          <div className="ecommerce-nft">
+            <div className="nft-bar"></div>
             <h2>eCommerce NFT Marketplace</h2>
             <p>
               Leverage the formidable combination of eCommerce and
@@ -46,8 +46,8 @@ const NFTDevelopment = () => {
               opportunities.
             </p>
           </div>
-          <div className="exchange">
-            <div className="stakes-bar"></div>
+          <div className="nft-based">
+            <div className="nft-bar"></div>
             <h2>NFT-Based ICO Development</h2>
             <p>
               Provide business enthusiasts with a platform to raise funds by
@@ -56,8 +56,8 @@ const NFTDevelopment = () => {
               with our expertise in Blockchain.
             </p>
           </div>
-          <div className="exchange">
-            <div className="stakes-bar"></div>
+          <div className="nft-lending">
+            <div className="nft-bar"></div>
             <h2>NFT Lending Platform</h2>
             <p>
               Create a crypto space where users can lend money by
@@ -66,8 +66,8 @@ const NFTDevelopment = () => {
               our excellence in Smart Contracts.
             </p>
           </div>
-          <div className="exchange">
-            <div className="stakes-bar"></div>
+          <div className="exchange-platform">
+            <div className="nft-bar"></div>
             <h2>Exchange Platform </h2>
             <p>
               Build a robust, independent, security-proof, and peer-to-peer NFT

@@ -44,7 +44,10 @@ const Advantages = () => {
   return (
     <>
       <div className="advantages">
-        <h1>Advantages of Hybrid App Development</h1>
+        <h1>
+          Advantages of Hybrid App
+          <br /> Development
+        </h1>
         <div className="add-benefits">
           <div className="benefits-img">{renderAdd}</div>
           <div className="bene-fits">

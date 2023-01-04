@@ -9,48 +9,48 @@
   font-family: "montserrat-Medium";
   src: url(../../../assets/fonts/Montserrat-Medium.ttf);
 }
-.hybrid-dev {
+.nft-dev {
   padding: 100px;
   background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
 }
-.dev-title {
+.nftdev-title {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.dev-title h1 {
+.nftdev-title h1 {
   font-size: 40px;
   font-weight: 900;
 }
-.dev-title h2 {
-  font-weight: 10;
+.nftdev-title h2 {
+  font-weight: 500;
   font-size: 20px;
 }
-.dev-title p {
+.nftdev-title p {
   font-weight: lighter;
 }
-.hybrid-stakes {
+.custom-nft {
   padding: 40px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 50px;
 }
-.stakes-bar {
+.nft-bar {
   border: 3px solid black;
   width: 100%;
   background-color: black;
 }
-.react-native h2:hover {
+.custom-marketplace h2:hover {
   color: red;
 }
-.react-native p {
+.custom-marketplace p {
   font-weight: 50;
 }
-.flutter-dev h2:hover {
+.white-label h2:hover {
   color: red;
 }
-.flutter-dev p {
+.white-label p {
   font-weight: 50;
 }
 .maintenance h2:hover {
@@ -59,13 +59,13 @@
 .maintenance p {
   font-weight: 50;
 }
-.react-native {
+.custom-marketplace {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.flutter-dev {
+.white-label {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -75,32 +75,41 @@
   flex-direction: column;
   gap: 20px;
 }
-.exchange {
+.ecommerce-nft {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.exchange p {
+.ecommerce-nft p {
   font-weight: 100;
 }
-.smart-contract {
+.nft-based {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.smart-contract p {
+.nft-based p {
   font-weight: 100;
 }
-.smart-audit {
+.nft-lending {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.smart-audit p {
+.nft-lending p {
   font-weight: 100;
 }
-@media (max-width: 1024px) {
-  .hybrid-stakes {
+.exchange-platform {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.exchange-platform p {
+  font-weight: 100;
+}
+
+@media (max-width: 480px) {
+  .custom-nft {
     display: grid;
     grid-template-columns: auto;
   }

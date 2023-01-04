@@ -9,74 +9,74 @@
   font-family: "montserrat-Medium";
   src: url(../../../assets/fonts/Montserrat-Medium.ttf);
 }
-.hybrid-dev {
+.dapp-dev {
   padding: 100px;
   background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
 }
-.dev-title {
+.dappdev-title {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.dev-title h1 {
+.dappdev-title h1 {
   font-size: 40px;
   font-weight: 900;
 }
-.dev-title h2 {
+.dappdev-title h2 {
   font-weight: 10;
   font-size: 20px;
 }
-.dev-title p {
+.dappdev-title p {
   font-weight: lighter;
 }
-.hybrid-stakes {
+.trained-dapp {
   padding: 40px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 50px;
 }
-.stakes-bar {
+.dapp-bar {
   border: 3px solid black;
   width: 100%;
   background-color: black;
 }
-.react-native h2:hover {
+.dapp-developers h2:hover {
   color: red;
 }
-.react-native p {
+.dapp-developers p {
   font-weight: 50;
 }
-.flutter-dev h2:hover {
+.strong-portfolio h2:hover {
   color: red;
 }
-.flutter-dev p {
+.strong-portfolio p {
   font-weight: 50;
 }
-.maintenance h2:hover {
+.engagement-models h2:hover {
   color: red;
 }
-.maintenance p {
+.engagement-models p {
   font-weight: 50;
 }
-.react-native {
+.dapp-developers {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.flutter-dev {
+.strong-portfolio {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.maintenance {
+.engagement-models {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-@media (max-width: 1024px) {
-  .hybrid-stakes {
+@media (max-width: 480px) {
+  .trained-dapp {
     display: grid;
     grid-template-columns: auto;
   }

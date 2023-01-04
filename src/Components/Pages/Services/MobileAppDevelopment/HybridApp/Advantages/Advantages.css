@@ -52,4 +52,15 @@
     display: grid;
     grid-template-columns: auto;
   }
+  .hybrid-content {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .add-bar {
+    width: 40px;
+  }
+  .bene-fits img {
+    width: 400px;
+    height: 200px;
+  }
 }

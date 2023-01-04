@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const WalletDevelopment = () => {
   return (
     <>
-      <div className="hybrid-dev">
-        <div className="dev-title">
+      <div className="wallet-dev">
+        <div className="plethora-title">
           <h1>
             Our Plethora of Cryptocurrency Wallet
             <br /> Development Services
@@ -14,9 +14,9 @@ const WalletDevelopment = () => {
             Hire Our cryptocurrency wallet developer for world-class services
           </h2>
         </div>
-        <div className="hybrid-stakes">
-          <div className="react-native">
-            <div className="stakes-bar"></div>
+        <div className="crypto-wallet">
+          <div className="currency-wallet">
+            <div className="wallet-bar"></div>
             <h2>Cryptocurrency Wallet Development</h2>
             <p>
               Our Cryptocurrency Wallet App Development Company have a team of
@@ -26,8 +26,8 @@ const WalletDevelopment = () => {
               simpler.
             </p>
           </div>
-          <div className="flutter-dev">
-            <div className="stakes-bar"></div>
+          <div className="payment-wallet">
+            <div className="wallet-bar"></div>
             <h2>Payment Gateway Development</h2>
             <p>
               We can develop a cryptocurrency wallet that can accept payment on
@@ -35,8 +35,8 @@ const WalletDevelopment = () => {
               across different payment platforms without any difficulty.
             </p>
           </div>
-          <div className="maintenance">
-            <div className="stakes-bar"></div>
+          <div className="integration-wallet">
+            <div className="wallet-bar"></div>
             <h2>Wallet Integration</h2>
             <p>
               We offer extended support in the integration of cryptocurrency

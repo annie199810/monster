@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 const EnterpriseDevelopment = () => {
   return (
     <>
-      <div className="hybrid-dev">
-        <div className="dev-title">
+      <div className="enterprise-dev">
+        <div className="enterprisedev-title">
           <h1>
             Our Multitude of Enterprise Blockchain <br />
             Development Services
           </h1>
           <h2>Developing future-ready enterprise Blockchain solutions</h2>
         </div>
-        <div className="hybrid-stakes">
-          <div className="react-native">
-            <div className="stakes-bar"></div>
+        <div className="DApp-develop">
+          <div className="exposure-dev">
+            <div className="enterprise-bar"></div>
             <h2>DApps Development</h2>
             <p>
               We are proficient in building your business to a decentralized
@@ -23,8 +23,8 @@ const EnterpriseDevelopment = () => {
               higher success rate.
             </p>
           </div>
-          <div className="flutter-dev">
-            <div className="stakes-bar"></div>
+          <div className="private-dev">
+            <div className="enterprise-bar"></div>
             <h2>Private Blockchain Development</h2>
             <p>
               With our private blockchain development, we ensure the safe and
@@ -33,8 +33,8 @@ const EnterpriseDevelopment = () => {
               transactions, just to name a few.
             </p>
           </div>
-          <div className="maintenance">
-            <div className="stakes-bar"></div>
+          <div className="crypto-dev">
+            <div className="enterprise-bar"></div>
             <h2>Crypto Wallet Development</h2>
             <p>
               Our development professionals have prior knowledge of developing
@@ -43,8 +43,8 @@ const EnterpriseDevelopment = () => {
               end-to-end encryption.
             </p>
           </div>
-          <div className="exchange">
-            <div className="stakes-bar"></div>
+          <div className="exchange-platform">
+            <div className="enterprise-bar"></div>
             <h2>Exchange Platform Development</h2>
             <p>
               Our Blockchain developers have extensive experience in developing
@@ -54,7 +54,7 @@ const EnterpriseDevelopment = () => {
             </p>
           </div>
           <div className="smart-contract">
-            <div className="stakes-bar"></div>
+            <div className="enterprise-bar"></div>
             <h2>Smart Contract Development</h2>
             <p>
               We develop efficient ethereum based smart contract solutions for
@@ -64,7 +64,7 @@ const EnterpriseDevelopment = () => {
             </p>
           </div>
           <div className="smart-audit">
-            <div className="stakes-bar"></div>
+            <div className="enterprise-bar"></div>
             <h2>Smart Contract Audit</h2>
             <p>
               At Sparx IT Solutions, we offer high-grade smart contract

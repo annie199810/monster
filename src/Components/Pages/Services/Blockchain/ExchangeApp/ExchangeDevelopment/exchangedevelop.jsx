@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const ExchangeDevelopment = () => {
   return (
     <>
-      <div className="hybrid-dev">
-        <div className="dev-title">
+      <div className="exchange-dev">
+        <div className="exchange-title">
           <h1>
             Why Choose Us for Cryptocurrency
             <br /> Exchange Development Services?
@@ -14,9 +14,9 @@ const ExchangeDevelopment = () => {
             We are a top-rated Cryptocurrency exchange development company
           </h2>
         </div>
-        <div className="hybrid-stakes">
-          <div className="react-native">
-            <div className="stakes-bar"></div>
+        <div className="experienced-developers">
+          <div className="efficient-develop">
+            <div className="exchange-bar"></div>
             <h2>Experienced Developers</h2>
             <p>
               We have trained and qualified cryptocurrency exchange developers
@@ -25,8 +25,8 @@ const ExchangeDevelopment = () => {
               sizes.
             </p>
           </div>
-          <div className="flutter-dev">
-            <div className="stakes-bar"></div>
+          <div className="Timeliness">
+            <div className="exchange-bar"></div>
             <h2>Timeliness</h2>
             <p>
               We have a proven track record in delivering high performance
@@ -34,8 +34,8 @@ const ExchangeDevelopment = () => {
               to deliver projects on the date of the submission.
             </p>
           </div>
-          <div className="exchange">
-            <div className="stakes-bar"></div>
+          <div className="Affordable">
+            <div className="exchange-bar"></div>
             <h2>Affordable Solutions</h2>
             <p>
               By choosing us as your Cryptocurrency exchange development

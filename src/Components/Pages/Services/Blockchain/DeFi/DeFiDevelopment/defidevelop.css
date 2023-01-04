@@ -9,73 +9,73 @@
   font-family: "montserrat-Medium";
   src: url(../../../assets/fonts/Montserrat-Medium.ttf);
 }
-.hybrid-dev {
+.defi-dev {
   padding: 100px;
   background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
 }
-.dev-title {
+.defidev-title {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.dev-title h1 {
+.defidev-title h1 {
   font-size: 40px;
   font-weight: 900;
 }
-.dev-title h2 {
+.defidev-title h2 {
   font-weight: 10;
   font-size: 20px;
 }
-.dev-title p {
+.defidev-title p {
   font-weight: lighter;
 }
-.hybrid-stakes {
+.defi-discovery {
   padding: 40px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 50px;
 }
-.stakes-bar {
+.defi-bar {
   border: 3px solid black;
   width: 100%;
   background-color: black;
 }
-.react-native h2:hover {
+.discovery-dev h2:hover {
   color: red;
 }
-.react-native p {
+.discovery-dev p {
   font-weight: 50;
 }
-.flutter-dev h2:hover {
+.MVP-dev h2:hover {
   color: red;
 }
-.flutter-dev p {
+.MVP-dev p {
   font-weight: 50;
 }
-.maintenance h2:hover {
+.continous-dev h2:hover {
   color: red;
 }
-.maintenance p {
+.continous-dev p {
   font-weight: 50;
 }
-.react-native {
+.discovery-dev {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.flutter-dev {
+.MVP-dev {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.maintenance {
+.continous-dev {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 480px) {
   .hybrid-stakes {
     display: grid;
     grid-template-columns: auto;

@@ -9,74 +9,74 @@
   font-family: "montserrat-Medium";
   src: url(../../../assets/fonts/Montserrat-Medium.ttf);
 }
-.hybrid-dev {
+.contract-dev {
   padding: 100px;
   background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
 }
-.dev-title {
+.contractdev-title {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.dev-title h1 {
+.contractdev-title h1 {
   font-size: 40px;
   font-weight: 900;
 }
-.dev-title h2 {
+.contractdev-title h2 {
   font-weight: 10;
   font-size: 20px;
 }
-.dev-title p {
+.contractdev-title p {
   font-weight: lighter;
 }
-.hybrid-stakes {
+.experienced-team {
   padding: 40px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 50px;
 }
-.stakes-bar {
+.contract-bar {
   border: 3px solid black;
   width: 100%;
   background-color: black;
 }
-.react-native h2:hover {
+.experience-title h2:hover {
   color: red;
 }
-.react-native p {
+.experience-title p {
   font-weight: 50;
 }
-.flutter-dev h2:hover {
+.hiring-plans h2:hover {
   color: red;
 }
-.flutter-dev p {
+.hiring-plans p {
   font-weight: 50;
 }
-.maintenance h2:hover {
+.clear-communication h2:hover {
   color: red;
 }
-.maintenance p {
+.clear-communication p {
   font-weight: 50;
 }
-.react-native {
+.experience-title {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.flutter-dev {
+.hiring-plans {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.maintenance {
+.clear-communication {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-@media (max-width: 1024px) {
-  .hybrid-stakes {
+@media (max-width: 480px) {
+  .experienced-team {
     display: grid;
     grid-template-columns: auto;
   }

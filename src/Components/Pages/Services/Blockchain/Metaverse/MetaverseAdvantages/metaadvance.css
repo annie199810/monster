@@ -13,7 +13,7 @@
   padding: 40px;
   background-color: #fdcfc1;
 }
-.hybrid-benefits {
+.meta-benefits {
   background-color: #fdcfc1;
   padding: 20px;
 }
@@ -36,14 +36,31 @@
   grid-template-columns: auto auto;
   gap: 150px;
 }
-.benefits {
+.meta-content {
   display: flex;
   flex-direction: row;
   gap: 30px;
+}
+.meta-content h3 {
+  text-align: justify;
+  align-items: justify;
+  font-size: 14px;
+  font-weight: 100;
 }
 @media (max-width: 1024px) {
   .add-benefits {
     display: grid;
     grid-template-columns: auto;
+  }
+  .meta-content {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .add-bar {
+    width: 40px;
+  }
+  .bene-fits img {
+    width: 400px;
+    height: 200px;
   }
 }

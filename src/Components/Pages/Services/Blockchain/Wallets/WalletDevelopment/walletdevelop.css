@@ -9,74 +9,74 @@
   font-family: "montserrat-Medium";
   src: url(../../../assets/fonts/Montserrat-Medium.ttf);
 }
-.hybrid-dev {
+.wallet-dev {
   padding: 100px;
   background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(6, 2, 2, 0.2);
 }
-.dev-title {
+.plethora-title {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.dev-title h1 {
+.plethora-title h1 {
   font-size: 40px;
   font-weight: 900;
 }
-.dev-title h2 {
-  font-weight: 10;
+.plethora-title h2 {
+  font-weight: 500;
   font-size: 20px;
 }
-.dev-title p {
+.plethora p {
   font-weight: lighter;
 }
-.hybrid-stakes {
+.crypto-wallet {
   padding: 40px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 50px;
 }
-.stakes-bar {
+.wallet-bar {
   border: 3px solid black;
   width: 100%;
   background-color: black;
 }
-.react-native h2:hover {
+.currency-wallet h2:hover {
   color: red;
 }
-.react-native p {
-  font-weight: 50;
+.currency-wallet p {
+  font-weight: 500;
 }
-.flutter-dev h2:hover {
+.payment-wallet h2:hover {
   color: red;
 }
-.flutter-dev p {
-  font-weight: 50;
+.payment-wallet p {
+  font-weight: 500;
 }
-.maintenance h2:hover {
+.integration-wallet h2:hover {
   color: red;
 }
-.maintenance p {
-  font-weight: 50;
+.integration-wallet p {
+  font-weight: 500;
 }
-.react-native {
+.currency-wallet {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.flutter-dev {
+.payment-wallet {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.maintenance {
+.integration-wallet {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-@media (max-width: 1024px) {
-  .hybrid-stakes {
+@media (max-width: 480px) {
+  .crypto-wallet {
     display: grid;
     grid-template-columns: auto;
   }

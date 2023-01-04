@@ -28,11 +28,11 @@ const DAppAdvantages = () => {
   const renderAdd = Benefits.map((adding) => {
     return (
       <>
-        <div className="hybrid-benefits">
+        <div className="dapp-benefits">
           <div className="title-benefits">
             <div className="benefits-bar"></div>
             <div className="add-bar"></div>
-            <div className="benefits">
+            <div className="dapp-content">
               <h2>{adding.title}</h2>
               <h3>{adding.info}</h3>
             </div>
@@ -44,7 +44,10 @@ const DAppAdvantages = () => {
   return (
     <>
       <div className="advantages">
-        <h1>Advantages of Choosing Our DApp Development Company</h1>
+        <h1>
+          Advantages of Choosing Our DApp
+          <br /> Development Company
+        </h1>
         <div className="add-benefits">
           <div className="benefits-img">{renderAdd}</div>
           <div className="bene-fits">

@@ -47,9 +47,20 @@
   font-size: 14px;
   font-weight: 100;
 }
-@media (max-width: 1024px) {
+@media (max-width: 48px) {
   .add-benefits {
     display: grid;
     grid-template-columns: auto;
+  }
+  .wearable-content {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .add-bar {
+    width: 40px;
+  }
+  .bene-fits img {
+    width: 400px;
+    height: 200px;
   }
 }

@@ -44,7 +44,10 @@ const Advantages = () => {
   return (
     <>
       <div className="advantages">
-        <h1>Top Benefits of our Wearable App Development</h1>
+        <h1>
+          Top Benefits of our Wearable App
+          <br /> Development
+        </h1>
         <div className="add-benefits">
           <div className="benefits-img">{renderAdd}</div>
           <div className="bene-fits">
