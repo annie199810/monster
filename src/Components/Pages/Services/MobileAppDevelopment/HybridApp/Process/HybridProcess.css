@@ -48,7 +48,7 @@
   flex-direction: row;
   align-items: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .app-process {
     display: grid;
     grid-template-columns: auto;

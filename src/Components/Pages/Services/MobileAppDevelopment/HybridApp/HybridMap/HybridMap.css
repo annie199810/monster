@@ -85,12 +85,6 @@
   margin-left: 40px;
   width: 200px;
 }
-@media (max-width: 768px) {
-  .accla {
-    display: flex;
-    flex-direction: column;
-  }
-}
 @media (max-width: 480px) {
   .accla {
     display: flex;
